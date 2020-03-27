@@ -1,0 +1,844 @@
+<table width="100%" border="1px" cellpadding="0" cellspacing="0"
+       style="table-layout:fixed;border-collapse:collapse;border-color:black;margin-top:15px;margin-bottom:15px;">
+    <tbody id="YADTBody">
+    <tr>
+        <td colspan="5" align="center" valign="middle" style="color:red;border-color:black;">数据输入</td>
+        <td colspan="7" align="center" valign="middle"></td>
+    </tr>
+    <tr>
+        <td colspan="3">&ensp;吊耳(单个)实际吊装质量</td>
+        <td colspan="1" align="center" valign="middle">t</td>
+        <td colspan="1" class="text-center required">
+            <input id="YADLiftWeight" align="center" type="text" title="" class="calculateSheetInput">
+        </td>
+        <td id="YADSketch" colspan="7" rowspan="3" style="vertical-align:bottom;"></td>
+    </tr>
+    <tr>
+        <td colspan="5" align="center" valign="middle" style="color: #18bc9c;border-color:black;">选型结果</td>
+    </tr>
+    <tr>
+        <td colspan="3">&ensp;可用的吊耳型号</td>
+        <td colspan="1" align="center" valign="middle">/</td>
+        <td id="YADTypeTd" colspan="1">
+            <select id="YADType" title="" class="calculateSheetSelect">
+                <option value="YADNull"></option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" style="color: #18bc9c;border-color:black;">结构尺寸</td>
+    </tr>
+    <tr id="YADInsert">
+        <td colspan="1" align="center" valign="middle">吊耳标记</td>
+        <td colspan="1" align="center" valign="middle">吊耳型号</td>
+        <td colspan="1" align="center" valign="middle">最大吊重<br>t</td>
+        <td colspan="1" align="center" valign="middle">吊耳厚度<br>S，mm</td>
+        <td colspan="1" align="center" valign="middle">衬板厚度<br>S<sub>2</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">垫板厚度<br>S<sub>1</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">吊孔直径<br>D，mm</td>
+        <td colspan="1" align="center" valign="middle">衬板外径<br>D<sub>1</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">吊耳宽度<br>H，mm</td>
+        <td colspan="1" align="center" valign="middle">垫板宽度<br>H<sub>SP</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">垫板高度<br>L<sub>SP</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">吊耳重量<br>kg</td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width="7.27263in"
+                 height="7.50529in"
+                 viewBox="0 0 523.63 540.381"
+                 class="YADst16">
+                <style type="text/css">
+                    .YADst1 {
+                        fill: none
+                    }
+
+                    .YADst2 {
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YADst3 {
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YADst4 {
+                        fill: none;
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YADst5 {
+                        fill: #000000;
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YADst6 {
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YADst8 {
+                        fill: #000000;
+                        font-family: Microsoft Sans Serif, sans-serif;
+                        font-size: 0.9em
+                    }
+
+                    .YADst9 {
+                        fill: #000000;
+                        font-family: 微软雅黑, sans-serif;
+                        font-size: 1.00001em
+                    }
+
+                    .YADst10 {
+                        fill: #000000;
+                        font-family: 微软雅黑, sans-serif;
+                        font-size: 0.8em
+                    }
+
+                    .YADst11 {
+                        fill: #000000;
+                        font-family: Microsoft Sans Serif, sans-serif;
+                        font-size: 0.8em
+                    }
+
+                    .YADst13 {
+                        fill: #000000;
+                        font-family: Cambria Math, sans-serif;
+                        font-size: 1.13564em
+                    }
+
+                    .YADst15 {
+                        fill: none;
+                        stroke: #000000;
+                        stroke-linecap: butt;
+                        stroke-width: 2.83465
+                    }
+
+                    .YADst16 {
+                        fill: none;
+                        fill-rule: evenodd;
+                        font-size: 12px;
+                        overflow: visible;
+                        stroke-linecap: square;
+                        stroke-miterlimit: 3
+                    }
+                </style>
+                <g>
+                    <g>
+                        <path d="M0 0 L523.63 0 L523.63 540.38 L0 540.38 L0 0 Z" class="YADst1"></path>
+                    </g>
+                    <g transform="translate(125.121,-243.481)">
+                        <path d="M105.95 429.15 L74.84 443.57 L48.44 460.17 L27.35 478.58 L12.04 498.39 L2.85 519.15 L0 540.38 L0 540.38 L105.95 429.15 Z"
+                              class="YADst1"></path>
+                        <path d="M105.95 429.15 L74.84 443.57 L48.44 460.17 L27.35 478.58 L12.04 498.39 L2.85 519.15 L0 540.38 L0 540.38"
+                              class="YADst2"></path>
+                    </g>
+                    <g transform="translate(119.45,-243.481)">
+                        <path d="M111.62 423.06 C97.03 428.75 83.52 435.16 71.34 442.2 C56.09 451 42.91 460.79 32.19 471.35 C21.47 481.9 13.2 493.24 7.74 505.07 C4.09 512.99 1.69 521.12 0.63 529.34 C0.15 533.01 -0.05 536.7 0 540.38 L111.62 423.06 Z"
+                              class="YADst1"></path>
+                        <path d="M111.62 423.06 C97.03 428.75 83.52 435.16 71.34 442.2 C56.09 451 42.91 460.79 32.19 471.35 C21.47 481.9 13.2 493.24 7.74 505.07 C4.09 512.99 1.69 521.12 0.63 529.34 C0.15 533.01 -0.05 536.7 0 540.38"
+                              class="YADst2"></path>
+                    </g>
+                    <g transform="translate(659.833,296.9) rotate(90)">
+                        <path d="M0 540.38 L157.85 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(665.501,296.9) rotate(90)">
+                        <path d="M0 540.38 L157.85 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(231.066,995.135) rotate(180)">
+                        <path d="M0 540.38 L111.61 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(771.447,179.578) rotate(90)">
+                        <path d="M0 540.38 L275.18 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(119.452,-243.481)">
+                        <path d="M0 540.38 L111.61 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(119.452,-231.345)">
+                        <path d="M0 540.38 L111.61 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(654.164,108.134) rotate(90)">
+                        <path d="M0 540.38 L328.19 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(645.66,108.134) rotate(90)">
+                        <path d="M0 540.38 L314.45 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(119.452,892.933) rotate(180)">
+                        <path d="M0 540.38 L5.67 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(119.452,976.704) rotate(180)">
+                        <path d="M0 540.38 L5.67 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(113.783,962.963) rotate(180)">
+                        <path d="M0 540.38 L8.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(113.783,905.428) rotate(180)">
+                        <path d="M0 540.38 L8.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-397.462,237.263) rotate(-90)">
+                        <path d="M0 540.38 L8.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(113.783,-311.622)">
+                        <path d="M0 540.38 L36.95 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(113.783,-303.118)">
+                        <path d="M0 540.38 L29.14 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(105.279,-432.247)">
+                        <path d="M0 540.38 L8.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(113.783,-418.074)">
+                        <path d="M0 540.38 L4.25 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(658.416,122.307) rotate(90)">
+                        <path d="M0 540.38 L56.69 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(118.035,719.38) rotate(180)">
+                        <path d="M0 540.38 L4.25 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(105.279,662.688) rotate(180)">
+                        <path d="M0 540.38 L4.25 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(641.408,122.307) rotate(90)">
+                        <path d="M0 540.38 L56.69 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(101.027,-361.381)">
+                        <path d="M0 540.38 L4.25 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(92.5231,-389.727)">
+                        <path d="M0 540.38 L34.02 540.38" class="YADst3"></path>
+                    </g>
+                    <g transform="translate(372.282,-361.381)">
+                        <ellipse cx="28.3465" cy="512.034" rx="28.3465" ry="28.3465" class="YADst4"></ellipse>
+                    </g>
+                    <g transform="translate(358.109,-389.727)">
+                        <path d="M85.04 540.38 A42.5197 42.5197 -180 1 0 0 540.38 L85.04 540.38 Z"
+                              class="YADst1"></path>
+                        <path d="M85.04 540.38 A42.5197 42.5197 -180 1 0 0 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(898.489,150.653) rotate(90)">
+                        <path d="M0 540.38 L263.43 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(983.529,150.653) rotate(90)">
+                        <path d="M0 540.38 L236.55 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(366.613,-117.798)">
+                        <path d="M0 540.38 L11.34 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(443.148,-187.828)">
+                        <path d="M0 540.38 L19.84 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(1011.88,361.057) rotate(90)">
+                        <path d="M0 540.38 L66.76 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-210.618,427.82) rotate(-90)">
+                        <path d="M0 540.38 L66.76 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(338.266,-187.828)">
+                        <path d="M0 540.38 L19.84 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-125.579,414.079) rotate(-90)">
+                        <path d="M0 540.38 L49.03 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(386.455,-175.333)">
+                        <path d="M28.35 540.38 A14.1732 14.1732 -180 0 0 -0 540.38 L28.35 540.38 Z"
+                              class="YADst1"></path>
+                        <path d="M28.35 540.38 A14.1732 14.1732 -180 0 0 -0 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(926.836,365.047) rotate(90)">
+                        <path d="M0 540.38 L49.03 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(423.306,-117.798)">
+                        <path d="M0 540.38 L11.34 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(386.455,-375.554)">
+                        <ellipse cx="14.1732" cy="526.207" rx="14.1732" ry="14.1732" class="YADst4"></ellipse>
+                    </g>
+                    <g transform="translate(102.444,-403.9)">
+                        <path d="M0 540.38 L14.17 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(102.444,-375.554)">
+                        <path d="M0 540.38 L14.17 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(941.009,99.6298) rotate(90)">
+                        <path d="M0 540.38 L345.2 540.38" class="YADst3"></path>
+                    </g>
+                    <g transform="translate(377.951,-175.333)">
+                        <path d="M0 540.38 L45.35 540.38" class="YADst3"></path>
+                    </g>
+                    <g transform="translate(349.605,-389.727)">
+                        <path d="M0 540.38 L102.05 540.38" class="YADst3"></path>
+                    </g>
+                    <g transform="translate(462.991,-104.057)">
+                        <path d="M0 540.38 A8.50394 8.50394 -180 0 0 8.5 531.88 L0 540.38 Z" class="YADst1"></path>
+                        <path d="M0 540.38 A8.50394 8.50394 -180 0 0 8.5 531.88" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(462.991,-179.324)">
+                        <path d="M8.5 540.38 A8.50394 8.50394 -180 0 0 -0 531.88 L8.5 540.38 Z" class="YADst1"></path>
+                        <path d="M8.5 540.38 A8.50394 8.50394 -180 0 0 -0 531.88" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(329.762,-179.324)">
+                        <path d="M8.5 531.88 A8.50394 8.50394 -180 0 0 -0 540.38 L8.5 531.88 Z" class="YADst1"></path>
+                        <path d="M8.5 531.88 A8.50394 8.50394 -180 0 0 -0 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(329.762,-104.057)">
+                        <path d="M0 531.88 A8.50394 8.50394 -180 0 0 8.5 540.38 L0 531.88 Z" class="YADst1"></path>
+                        <path d="M0 531.88 A8.50394 8.50394 -180 0 0 8.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(358.109,-117.798)">
+                        <path d="M0 531.88 A8.50394 8.50394 -180 0 0 8.5 540.38 L0 531.88 Z" class="YADst1"></path>
+                        <path d="M0 531.88 A8.50394 8.50394 -180 0 0 8.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(377.951,-117.798)">
+                        <path d="M0 540.38 A8.50394 8.50394 -180 0 0 8.5 531.88 L0 540.38 Z" class="YADst1"></path>
+                        <path d="M0 540.38 A8.50394 8.50394 -180 0 0 8.5 531.88" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(414.802,-117.798)">
+                        <path d="M0 531.88 A8.50394 8.50394 -180 0 0 8.5 540.38 L0 531.88 Z" class="YADst1"></path>
+                        <path d="M0 531.88 A8.50394 8.50394 -180 0 0 8.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(434.644,-117.798)">
+                        <path d="M0 540.38 A8.50394 8.50394 -180 0 0 8.5 531.88 L0 540.38 Z" class="YADst1"></path>
+                        <path d="M0 540.38 A8.50394 8.50394 -180 0 0 8.5 531.88" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(649.912,46.0418) rotate(90)">
+                        <path d="M0 540.38 L10.8 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(108.539,-494.339)">
+                        <path d="M0 540.38 L1.98 540.38 L0.99 534.43 L0 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(423.134,-316.088) rotate(39.627)">
+                        <path d="M0 540.38 L34.79 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(100.931,-418.074)">
+                        <path d="M0 537.85 L1.05 536.58 L4.35 540.38 L0 537.85 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(75.6581,-437.433)">
+                        <ellipse cx="2.82756" cy="537.553" rx="2.82756" ry="2.82756" class="YADst4"></ellipse>
+                    </g>
+                    <g transform="translate(-309.465,482.227) rotate(-135)">
+                        <path d="M0 540.38 L20.04 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(598.849,85.9471) rotate(90)">
+                        <path d="M0 540.38 L14.17 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(78.4857,640.501) rotate(180)">
+                        <path d="M0 540.38 L54.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(116.618,-403.9)">
+                        <path d="M-0 540.38 A1.41732 1.41732 -180 0 0 1.42 538.96 L0 540.38 Z" class="YADst1"></path>
+                        <path d="M-0 540.38 A1.41732 1.41732 -180 0 0 1.42 538.96" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(116.618,-374.137)">
+                        <path d="M1.42 540.38 A1.41732 1.41732 -180 0 0 0 538.96 L1.42 540.38 Z" class="YADst1"></path>
+                        <path d="M1.42 540.38 A1.41732 1.41732 -180 0 0 0 538.96" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(101.027,-403.9)">
+                        <path d="M0 538.96 A1.41732 1.41732 -180 0 0 1.42 540.38 L0 538.96 Z" class="YADst1"></path>
+                        <path d="M0 538.96 A1.41732 1.41732 -180 0 0 1.42 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(101.027,-374.137)">
+                        <path d="M1.42 538.96 A1.41732 1.41732 -180 0 0 0 540.38 L1.42 538.96 Z" class="YADst1"></path>
+                        <path d="M1.42 538.96 A1.41732 1.41732 -180 0 0 0 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(656.998,136.48) rotate(90)">
+                        <path d="M0 540.38 L28.35 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(642.825,136.48) rotate(90)">
+                        <path d="M0 540.38 L28.35 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(497.024,54.217) rotate(45)">
+                        <path d="M0 540.38 L6.41 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-368.726,199.138) rotate(-59.3564)">
+                        <path d="M0 540.38 L42.97 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(114.856,-98.0946)">
+                        <path d="M1.42 540.38 L0 539.54 L3.24 535.69 L1.42 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(93.365,-62.9845)">
+                        <ellipse cx="2.82756" cy="537.553" rx="2.82756" ry="2.82756" class="YADst4"></ellipse>
+                    </g>
+                    <g transform="translate(-294.564,856.675) rotate(-135)">
+                        <path d="M0 540.38 L20.04 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(613.75,460.395) rotate(90)">
+                        <path d="M0 540.38 L14.17 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(96.1926,1014.95) rotate(180)">
+                        <path d="M0 540.38 L54.78 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(489.087,40.4757) rotate(45)">
+                        <path d="M0 540.38 L9.62 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-261.521,610.866) rotate(-135)">
+                        <path d="M0 540.38 L9.62 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(502.693,619.37) rotate(135)">
+                        <path d="M0 540.38 L9.62 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(4.8317,71.759) rotate(-49.8173)">
+                        <path d="M0 540.38 L22.38 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(432.117,-137.05)">
+                        <path d="M0 540.38 L20.88 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(417.678,-119.954)">
+                        <path d="M2.57 536.06 L3.83 537.12 L0 540.38 L2.57 536.06 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(983.529,406.067) rotate(90)">
+                        <path d="M0 540.38 L8.01 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-264.922,504.414) rotate(-135)">
+                        <path d="M0 540.38 L4.81 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-280.229,-259.8) rotate(-45)">
+                        <path d="M0 540.38 L4.81 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(499.291,561.107) rotate(135)">
+                        <path d="M0 540.38 L4.81 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(483.984,-203.107) rotate(45)">
+                        <path d="M0 540.38 L4.81 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(489.087,-17.0596) rotate(45)">
+                        <path d="M0 540.38 L9.62 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-267.19,-29.5541) rotate(-45)">
+                        <path d="M0 540.38 L6.41 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(462.991,976.704) rotate(180)">
+                        <path d="M0 540.38 L124.72 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(397.055,-109.09)">
+                        <path d="M2.94 540.38 A3.62835 3.62835 -180 1 0 0 536.18 L2.94 540.38 Z" class="YADst1"></path>
+                        <path d="M2.94 540.38 A3.62835 3.62835 -180 1 0 0 536.18" class="YADst6"></path>
+                    </g>
+                    <g transform="translate(397.589,-109.624)">
+                        <ellipse cx="3.03918" cy="537.341" rx="3.03918" ry="3.03918" class="YADst4"></ellipse>
+                    </g>
+                    <g transform="translate(393.31,-112.663)">
+                        <path d="M0 540.38 L15.79 540.38" class="YADst3"></path>
+                    </g>
+                    <g transform="translate(233.901,-231.345)">
+                        <path d="M0 540.38 L34.02 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(233.901,-243.481)">
+                        <path d="M0 540.38 L34.02 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(805.463,314.138) rotate(90)">
+                        <path d="M0 540.38 L5.1 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-275.299,291.797) rotate(-90)">
+                        <path d="M0 540.38 L55.84 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-275.299,309.035) rotate(-90)">
+                        <path d="M0 540.38 L12.14 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(264.232,-226.243)">
+                        <path d="M0 540.38 L1.7 540.38 L0.85 535.28 L0 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(264.232,-243.481)">
+                        <path d="M0 535.28 L1.7 535.28 L0.85 540.38 L0 535.28 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(116.618,837.28) rotate(180)">
+                        <path d="M0 540.38 L52.44 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(110.948,777.644) rotate(180)">
+                        <path d="M0 540.38 L46.77 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-473.369,291.797) rotate(-90)">
+                        <path d="M0 540.38 L49.43 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(66.1609,-243.481)">
+                        <path d="M0 535.28 L1.7 535.28 L0.85 540.38 L0 535.28 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(66.1609,-298.015)">
+                        <path d="M0 540.38 L1.7 540.38 L0.85 535.28 L0 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(1.22809,791.801) rotate(-133.215)">
+                        <path d="M0 540.38 L15.7 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(384.305,950.724) rotate(180)">
+                        <path d="M0 540.38 L22.12 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(394.434,-114.878)">
+                        <path d="M1.24 536.08 L0 537.24 L4.11 540.38 L1.24 536.08 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(440.813,-139.638)">
+                        <text id="YADSketchR" text-anchor="middle" x="0" y="539.16" class="YADst8">r</text>
+                    </g>
+                    <g transform="translate(465.825,-187.828)">
+                        <path d="M0 540.38 L34.02 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(465.825,-104.057)">
+                        <path d="M0 540.38 L34.02 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(1037.39,357.655) rotate(90)">
+                        <path d="M0 540.38 L73.57 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(496.156,-182.726)">
+                        <path d="M0 540.38 L1.7 540.38 L0.85 535.28 L0 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(496.156,-104.057)">
+                        <path d="M0 535.28 L1.7 535.28 L0.85 540.38 L0 535.28 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(870.143,430.654) rotate(90)">
+                        <path d="M0 540.38 L85.47 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(1011.88,430.654) rotate(90)">
+                        <path d="M0 540.38 L85.47 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(334.865,-27.0934)">
+                        <path d="M0 540.38 L131.53 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(329.762,-26.243)">
+                        <path d="M5.1 538.68 L5.1 540.38 L0 539.53 L5.1 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(466.392,-26.243)">
+                        <path d="M0 538.68 L0 540.38 L5.1 539.53 L0 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(898.489,416.913) rotate(90)">
+                        <path d="M0 540.38 L75.46 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(983.529,416.913) rotate(90)">
+                        <path d="M0 540.38 L75.46 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(363.211,-50.8436)">
+                        <path d="M0 540.38 L74.83 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(358.109,-49.9932)">
+                        <path d="M5.1 538.68 L5.1 540.38 L0 539.53 L5.1 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(438.046,-49.9932)">
+                        <path d="M0 538.68 L0 540.38 L5.1 539.53 L0 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(926.836,416.913) rotate(90)">
+                        <path d="M0 540.38 L51.71 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(955.182,416.913) rotate(90)">
+                        <path d="M0 540.38 L51.71 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(391.558,-74.5938)">
+                        <path d="M0 540.38 L18.14 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(386.455,-73.7434)">
+                        <path d="M5.1 538.68 L5.1 540.38 L0 539.53 L5.1 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(409.699,-73.7434)">
+                        <path d="M0 538.68 L0 540.38 L5.1 539.53 L0 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(363.778,962.963) rotate(180)">
+                        <path d="M0 540.38 L59.29 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(335.432,976.704) rotate(180)">
+                        <path d="M0 540.38 L30.94 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(847.703,441.426) rotate(90)">
+                        <path d="M0 540.38 L19.08 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(847.703,422.582) rotate(90)">
+                        <path d="M0 540.38 L13.74 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(306.472,-98.9545)">
+                        <path d="M0 540.38 L1.7 540.38 L0.85 535.28 L0 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(375.117,905.428) rotate(180)">
+                        <path d="M0 540.38 L70.63 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(847.703,370.15) rotate(90)">
+                        <path d="M0 540.38 L47.33 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(306.472,-170.231)">
+                        <path d="M0 540.38 L1.7 540.38 L0.85 535.28 L0 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(306.472,-117.798)">
+                        <path d="M0 535.28 L1.7 535.28 L0.85 540.38 L0 535.28 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(-37.3154,749.788) rotate(-137.338)">
+                        <path d="M0 540.38 L15.59 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(317.421,882.228) rotate(180)">
+                        <path d="M0 540.38 L23.11 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(328.406,-185.087)">
+                        <path d="M0.96 536.98 L0 538.02 L3.61 540.38 L0.96 536.98 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(27.8577,-242.434) rotate(-47.5311)">
+                        <path d="M0 540.38 L30.06 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(446.763,-440.13)">
+                        <path d="M0 540.38 L23.1 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(419.768,-410.637)">
+                        <path d="M5.48 531.95 L7.92 534.18 L0 540.38 L5.48 531.95 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(12.3077,527.215) rotate(-136.672)">
+                        <path d="M0 540.38 L46.41 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(349.341,642.656) rotate(180)">
+                        <path d="M0 540.38 L18.71 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(381.967,-399.452)">
+                        <path d="M2.27 532.37 L0 534.78 L8.35 540.38 L2.27 532.37 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(116.618,-318.425)">
+                        <path d="M0 540.38 L20.75 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(674.915,233.861) rotate(90)">
+                        <path d="M0 540.38 L5.1 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-405.846,216.854) rotate(-90)">
+                        <path d="M0 540.38 L17.93 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-405.846,228.759) rotate(-90)">
+                        <path d="M0 540.38 L6.8 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(133.684,-306.519)">
+                        <path d="M0 540.38 L1.7 540.38 L0.85 535.28 L0 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(133.684,-318.425)">
+                        <path d="M0 535.28 L1.7 535.28 L0.85 540.38 L0 535.28 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(182.027,-217.917)">
+                        <text x="0" y="539.16" class="YADst8">WL</text>
+                    </g>
+                    <g transform="translate(183.515,-247.417)">
+                        <text x="0" y="539.16" class="YADst8">TL</text>
+                    </g>
+                    <g transform="translate(-433.401,419.748) rotate(-90)">
+                        <path d="M0 540.38 L18.34 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(118.885,-136.135)">
+                        <path d="M0 540.38 L5.1 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(101.877,944.627) rotate(180)">
+                        <path d="M0 540.38 L17.93 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(113.783,944.627) rotate(180)">
+                        <path d="M0 540.38 L6.8 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(113.783,-135.284)">
+                        <path d="M5.1 538.68 L5.1 540.38 L0 539.53 L5.1 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(101.877,-135.284)">
+                        <path d="M0 538.68 L0 540.38 L5.1 539.53 L0 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(35.0431,-68.7884)">
+                        <text id="YADSketchS18" text-anchor="right" x="10" y="539.16" class="YADst8">0.8S1</text>
+                    </g>
+                    <g transform="translate(654.164,439.158) rotate(90)">
+                        <path d="M0 540.38 L52.45 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(659.833,457.589) rotate(90)">
+                        <path d="M0 540.38 L34.02 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(108.681,1029.15) rotate(180)">
+                        <path d="M0 540.38 L5.1 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(124.555,-51.611)">
+                        <path d="M0 540.38 L23.92 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(113.783,-51.611)">
+                        <path d="M0 540.38 L5.67 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(108.681,-50.7606)">
+                        <path d="M0 538.68 L0 540.38 L5.1 539.53 L0 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(119.452,-50.7606)">
+                        <path d="M5.1 538.68 L5.1 540.38 L0 539.53 L5.1 538.68 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(116.618,849.416) rotate(180)">
+                        <path d="M0 540.38 L52.44 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(110.948,892.933) rotate(180)">
+                        <path d="M0 540.38 L46.77 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(607.392,314.138) rotate(90)">
+                        <path d="M0 540.38 L33.31 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(66.1609,-226.243)">
+                        <path d="M0 540.38 L1.7 540.38 L0.85 535.28 L0 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(66.1609,-187.828)">
+                        <path d="M0 535.28 L1.7 535.28 L0.85 540.38 L0 535.28 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(607.392,228.759) rotate(90)">
+                        <path d="M0 540.38 L8.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(89.6884,691.034) rotate(180)">
+                        <path d="M0 540.38 L25.51 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(110.948,769.14) rotate(180)">
+                        <path d="M0 540.38 L46.77 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(607.392,155.756) rotate(90)">
+                        <path d="M0 540.38 L67.9 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(66.1609,-384.625)">
+                        <path d="M0 540.38 L1.7 540.38 L0.85 535.28 L0 540.38 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(66.1609,-311.622)">
+                        <path d="M0 535.28 L1.7 535.28 L0.85 540.38 L0 535.28 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(463.132,-279.631) rotate(39.2808)">
+                        <path d="M0 540.38 L11.83 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(130.163,-394.238)">
+                        <path d="M0 540.38 L17.15 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(117.715,-401.18)">
+                        <path d="M3.74 539.28 L2.84 540.38 L0 537.14 L3.74 539.28 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(20.8699,-443.237)">
+                        <text id="YADSketchS28" text-anchor="right" x="8" y="539.16" class="YADst8">0.8S2</text>
+                    </g>
+                    <g transform="translate(82.3591,-503.463)">
+                        <text x="0" y="539.6" class="YADst9">载荷方向</text>
+                    </g>
+                    <g transform="translate(-439.354,119.472) rotate(-90)">
+                        <path d="M0 540.38 L48.19 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(95.3577,614.499) rotate(180)">
+                        <path d="M0 540.38 L27.07 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(118.035,614.499) rotate(180)">
+                        <path d="M0 540.38 L17.01 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(95.3577,-465.318)">
+                        <path d="M0 538.49 L0 540.38 L5.67 539.44 L0 538.49 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(-422.346,119.472) rotate(-90)">
+                        <path d="M0 540.38 L48.19 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(123.704,-466.263)">
+                        <path d="M0 540.38 L27.07 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(118.035,-465.318)">
+                        <path d="M5.67 538.49 L5.67 540.38 L0 539.44 L5.67 538.49 Z" class="YADst5"></path>
+                    </g>
+                    <g transform="translate(-435.102,105.299) rotate(-90)">
+                        <path d="M0 540.38 L34.02 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-426.598,105.299) rotate(-90)">
+                        <path d="M0 540.38 L34.02 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(105.279,-466.263)">
+                        <path d="M0 540.38 L8.5 540.38" class="YADst2"></path>
+                    </g>
+                    <g transform="translate(-280.535,294.285) rotate(-90)">
+                        <text id="" text-anchor="middle" x="35" y="539.9" class="YADst10">封头直边高度</text>
+                    </g>
+                    <g transform="translate(-478.606,297.828) rotate(-90)">
+                        <text id="" text-anchor="middle" x="30" y="560" class="YADst11">1/3封头深度</text>
+                    </g>
+                    <g transform="translate(360.699,-134.289)">
+                        <text x="0" y="539.16" class="YADst8">M10</text>
+                    </g>
+                    <g transform="translate(-47.6262,405.848) rotate(-90)">
+                        <text id="YADSketchLSP" text-anchor="middle" x="10" y="539.16" class="YADst8">LSP</text>
+                    </g>
+                    <g transform="translate(388.723,-31.3453)">
+                        <text id="YADSketchHSP" text-anchor="middle" x="14" y="539.16" class="YADst8">HSP</text>
+                    </g>
+                    <g transform="translate(396.66,-55.0955)">
+                        <text id="YADSketchH" text-anchor="middle" x="4" y="539.16" class="YADst8">H</text>
+                    </g>
+                    <g transform="translate(397.156,-78.8458)">
+                        <text id="YADSketchF" text-anchor="middle" x="4" y="539.16" class="YADst8">F</text>
+                    </g>
+                    <g transform="translate(-237.328,457.229) rotate(-90)">
+                        <text id="YADSketchG" text-anchor="middle" x="4" y="539.16" class="YADst8">G</text>
+                    </g>
+                    <g transform="translate(-237.31,399.768) rotate(-90)">
+                        <text id="YADSketchL1" text-anchor="middle" x="5" y="539.16" class="YADst8">L1</text>
+                    </g>
+                    <g transform="translate(292.823,-202.786)">
+                        <text x="0" y="539.16" class="YADst8">R20</text>
+                    </g>
+                    <g transform="translate(449.527,-444.451)">
+                        <text id="YADSketchD1" text-anchor="middle" x="10" y="539.15" class="YADst13">∅D1</text>
+                    </g>
+                    <g transform="translate(329.146,-442.426)">
+                        <text id="YADSketchD" text-anchor="middle" x="8" y="539.15" class="YADst13">∅D</text>
+                    </g>
+                    <g transform="translate(-410.098,208.987) rotate(-90)">
+                        <text id="YADSketchA1" text-anchor="middle" x="4" y="539.16" class="YADst8">a</text>
+                    </g>
+                    <g transform="translate(86.7068,-140.387)">
+                        <text id="YADSketchA2" text-anchor="middle" x="4" y="539.16" class="YADst8">a</text>
+                    </g>
+                    <g transform="translate(132.814,-55.8629)">
+                        <text id="YADSketchS1" text-anchor="middle" x="6" y="539.16" class="YADst8">S1</text>
+                    </g>
+                    <g transform="translate(-477.621,340.223) rotate(-90)">
+                        <text x="0" y="539.16" class="YADst8">100</text>
+                    </g>
+                    <g transform="translate(-477.621,237.006) rotate(-90)">
+                        <text id="YADSketchS11" text-anchor="middle" x="4" y="539.16" class="YADst8">S</text>
+                    </g>
+                    <g transform="translate(-477.621,196.857) rotate(-90)">
+                        <text id="YADSketchL3" text-anchor="middle" x="8" y="539.16" class="YADst8">L3</text>
+                    </g>
+                    <g transform="translate(132.927,-398.49)">
+                        <text x="0" y="539.16" class="YADst8">R4</text>
+                    </g>
+                    <g transform="translate(71.4469,-470.515)">
+                        <text id="YADSketchS21" text-anchor="middle" x="6" y="539.16" class="YADst8">S2</text>
+                    </g>
+                    <g transform="translate(104.57,-465.554)">
+                        <path d="M1.06 539.67 a0.354331 0.354331 -180 1 0 -0.708661 0 a0.354331 0.354331 -180 1 0 0.708661 0 Z"
+                              class="YADst15"></path>
+                    </g>
+                    <g transform="translate(132.53,-470.515)">
+                        <text id="YADSketchS22" text-anchor="middle" x="6" y="539.16" class="YADst8">S2</text>
+                    </g>
+                    <g transform="translate(113.074,-465.554)">
+                        <path d="M0.35 539.67 a0.354331 0.354331 -180 0 0 0.708661 0 a0.354331 0.354331 -180 1 0 -0.708661 0 Z"
+                              class="YADst15"></path>
+                    </g>
+                    <g transform="translate(113.074,-465.554)">
+                        <path d="M0.35 539.67 a0.354331 0.354331 -180 0 0 0.708661 0 a0.354331 0.354331 -180 1 0 -0.708661 0 Z"
+                              class="YADst15"></path>
+                    </g>
+                    <g transform="translate(104.57,-465.554)">
+                        <path d="M1.06 539.67 a0.354331 0.354331 -180 1 0 -0.708661 0 a0.354331 0.354331 -180 0 0 0.708661 0 Z"
+                              class="YADst15"></path>
+                    </g>
+                    <g transform="translate(105.271,-470.515)">
+                        <text id="YADSketchS12" text-anchor="middle" x="4" y="539.16" class="YADst8">S</text>
+                    </g>
+                </g>
+            </svg>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="12" style="padding:20px;">
+            注：<br>
+            <ol>
+                <li>
+                    吊耳强度按 Q235A 校核，吊装时需保证吊耳仅承受竖向载荷。
+                </li>
+                <li>
+                    吊耳与壳体的焊缝，应按 NB/T 47013-2015 进行 MT 或 PT 检测，I 级合格。
+                </li>
+            </ol>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<script type="text/javascript" charset="utf-8" src="/static/west/cal/y/a/d/YAD.js"></script>

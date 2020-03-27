@@ -1,0 +1,173 @@
+{
+  "rows": [
+    {
+      "name": "设计温度, ℃",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "填料层所持液体密度, kg/m³",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "格栅板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "格栅板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "格栅板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "格栅板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量(双面), mm",
+      "group": "格栅板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "高度 h, mm",
+      "group": "格栅板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度 δn, mm",
+      "group": "格栅板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "长度 L, mm",
+      "group": "格栅板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "间距 Δ, mm",
+      "group": "格栅板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "类型",
+      "group": "填料",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "散装填料",
+              "text": "散装填料"
+            },
+            {
+              "value": "波网填料",
+              "text": "波网填料"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "堆积密度",
+      "group": "填料",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "高度 H, mm",
+      "group": "填料",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

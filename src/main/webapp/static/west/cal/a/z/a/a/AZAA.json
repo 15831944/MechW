@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "name": "进料管内直径, mm",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "name": "进料管介质流速, m/s",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "泄放条件下介质密度, kg/m³",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 1
+        }
+      }
+    }
+  ]
+}

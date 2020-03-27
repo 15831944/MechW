@@ -1,0 +1,129 @@
+{
+  "rows": [
+    {
+      "name": "设计温度，℃",
+      "group": "设计条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量，mm",
+      "group": "设计条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "材料",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "材料",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "材料",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "材料",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "筒体内直径 Di，mm",
+      "group": "筒体尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "筒体名义厚度 δn，mm",
+      "group": "筒体尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "搅拌装置重力，N",
+      "group": "轴向载荷",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "流体对搅拌桨的轴向力，N",
+      "group": "轴向载荷",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "容器重力(不含器底)，N",
+      "group": "轴向载荷",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

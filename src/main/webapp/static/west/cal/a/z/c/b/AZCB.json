@@ -1,0 +1,81 @@
+{
+  "rows": [
+    {
+      "name": "额定泄放量, kg/s",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "安全阀入口泄放压力, MPa(A)",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "泄放温度, K",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "安全阀背压, MPa(A)",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "气体摩尔质量, kg/k•mol",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "气体绝热指数",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 1.0001,
+          "precision": 4
+        }
+      }
+    },
+    {
+      "name": "泄放管内直径 d, mm",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+<table width="100%" border="1px" cellpadding="0" cellspacing="0"
+       style="table-layout:fixed;border-collapse:collapse;border-color:black;margin-top:15px;margin-bottom:15px;">
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">长方板</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">圆形板</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">梯形板</td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;长度 L，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBAL" title=""
+                                                              class="calculateSheetInput ZZBARequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;直径 D，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBBDO" title=""
+                                                              class="calculateSheetInput ZZBBRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;上边长 L<sub>t</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBCLT" title=""
+                                                              class="calculateSheetInput ZZBCRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;宽度 W，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBAW" title=""
+                                                              class="calculateSheetInput ZZBARequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;厚度 δ<sub>n</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBBTHKN" title=""
+                                                              class="calculateSheetInput ZZBBRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;下边长 L<sub>b</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBCLB" title=""
+                                                              class="calculateSheetInput ZZBCRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;厚度 δ<sub>n</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBATHKN" title=""
+                                                              class="calculateSheetInput ZZBARequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBBD" title=""
+                                                              class="calculateSheetInput ZZBBRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;高度 H，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBCH" title=""
+                                                              class="calculateSheetInput ZZBCRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBAD" title=""
+                                                              class="calculateSheetInput ZZBARequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;厚度 δ<sub>n</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBCTHKN" title=""
+                                                              class="calculateSheetInput ZZBCRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;表面积(单侧) A，m²</td>
+        <td id="ZZBBA" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBBResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBCD" title=""
+                                                              class="calculateSheetInput ZZBCRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;表面积(单侧) A，m²</td>
+        <td id="ZZBAA" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBAResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;体积 V，m³</td>
+        <td id="ZZBBV" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBBResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;体积 V，m³</td>
+        <td id="ZZBAV" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBAResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBBM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBBResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;表面积(单侧) A，m²</td>
+        <td id="ZZBCA" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBCResult"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBAM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBAResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;体积 V，m³</td>
+        <td id="ZZBCV" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBCResult"></td>
+    </tr>
+    <tr>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">圆环板</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBCM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBCResult"></td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">三角板</td>
+        <td colspan="1" class="calculateSheetSep">&ensp;</td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+        <td colspan="1" class="calculateSheetSep">&ensp;</td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetOnlyTopBorder">&ensp;</td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;外直径 D<sub>o</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBEDO" title=""
+                                                              class="calculateSheetInput ZZBERequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">圆柱体</td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;边长 L<sub>1</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBDL1" title=""
+                                                              class="calculateSheetInput ZZBDRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;内直径 D<sub>i</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBEDI" title=""
+                                                              class="calculateSheetInput ZZBERequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;边长 L<sub>2</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBDL2" title=""
+                                                              class="calculateSheetInput ZZBDRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;厚度 δ<sub>n</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBETHKN" title=""
+                                                              class="calculateSheetInput ZZBERequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;直径 D，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBFDO" title=""
+                                                              class="calculateSheetInput ZZBFRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;边长 L<sub>3</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBDL3" title=""
+                                                              class="calculateSheetInput ZZBDRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBED" title=""
+                                                              class="calculateSheetInput ZZBERequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;长度 L，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBFL" title=""
+                                                              class="calculateSheetInput ZZBFRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;厚度 δ<sub>n</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBDTHKN" title=""
+                                                              class="calculateSheetInput ZZBDRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBFD" title=""
+                                                              class="calculateSheetInput ZZBFRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBDD" title=""
+                                                              class="calculateSheetInput ZZBDRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;表面积(单侧) A，m²</td>
+        <td id="ZZBEA" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBEResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;体积 V，m³</td>
+        <td id="ZZBEV" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBEResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;表面积(单侧) A，m²</td>
+        <td id="ZZBFA" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBFResult"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;表面积(单侧) A，m²</td>
+        <td id="ZZBDA" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBDResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBEM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBEResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;体积 V，m³</td>
+        <td id="ZZBFV" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBFResult"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;体积 V，m³</td>
+        <td id="ZZBDV" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBDResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBFM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBFResult"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBDM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBDResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">圆柱壳(外径基准)</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetOnlyTopBorder">&ensp;</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">锥壳</td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">圆柱壳(内径基准)</td>
+        <td colspan="1" class="calculateSheetSep">&ensp;</td>
+        <td colspan="8" align="left" valign="middle">&ensp;外直径 D<sub>o</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBHDO" title=""
+                                                              class="calculateSheetInput ZZBHRequired"></td>
+        <td colspan="1" class="calculateSheetSep">&ensp;</td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;厚度 δ<sub>n</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBHTHKN" title=""
+                                                              class="calculateSheetInput ZZBHRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;大端内直径 D<sub>ib</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBIDIB" title=""
+                                                              class="calculateSheetInput ZZBIRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;内直径 D<sub>i</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBGDI" title=""
+                                                              class="calculateSheetInput ZZBGRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;长度 L，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBHL" title=""
+                                                              class="calculateSheetInput ZZBHRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;小端内直径 D<sub>is</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBIDIS" title=""
+                                                              class="calculateSheetInput ZZBIRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;厚度 δ<sub>n</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBGTHKN" title=""
+                                                              class="calculateSheetInput ZZBGRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBHD" title=""
+                                                              class="calculateSheetInput ZZBHRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;高度 H，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBIH" title=""
+                                                              class="calculateSheetInput ZZBIRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;长度 L，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBGL" title=""
+                                                              class="calculateSheetInput ZZBGRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;厚度 δ<sub>n</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBITHKN" title=""
+                                                              class="calculateSheetInput ZZBIRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBGD" title=""
+                                                              class="calculateSheetInput ZZBGRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;内表面积 A<sub>i</sub>，m²</td>
+        <td id="ZZBHAI" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBHResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBID" title=""
+                                                              class="calculateSheetInput ZZBIRequired"></td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;外表面积 A<sub>o</sub>，m²</td>
+        <td id="ZZBHAO" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBHResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;内表面积 A<sub>i</sub>，m²</td>
+        <td id="ZZBGAI" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBGResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;内容积 V<sub>i</sub>，m³</td>
+        <td id="ZZBHVI" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBHResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;半顶角 α，°</td>
+        <td id="ZZBIA" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBIResult"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;外表面积 A<sub>o</sub>，m²</td>
+        <td id="ZZBGAO" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBGResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBHM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBHResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;内表面积 A<sub>i</sub>，m²</td>
+        <td id="ZZBIAI" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBIResult"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;内容积 V<sub>i</sub>，m³</td>
+        <td id="ZZBGVI" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBGResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;外表面积 A<sub>o</sub>，m²</td>
+        <td id="ZZBIAO" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBIResult"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBGM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBGResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;内容积 V<sub>i</sub>，m³</td>
+        <td id="ZZBIVI" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBIResult"></td>
+    </tr>
+    <tr>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBIM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBIResult"></td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetTitle">锥壳</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetOnlyTopBorder">&ensp;</td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetOnlyTopBorder">&ensp;</td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;大端内直径 D<sub>ib</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBJDIB" title=""
+                                                              class="calculateSheetInput ZZBJRequired"></td>
+        <td colspan="1" class="calculateSheetSep">&ensp;</td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep">&ensp;</td>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetOnlyTopBorder">&ensp;</td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;小端内直径 D<sub>is</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBJDIS" title=""
+                                                              class="calculateSheetInput ZZBJRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;半顶角 α，°</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBJA" title=""
+                                                              class="calculateSheetInput ZZBJRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;厚度 δ<sub>n</sub>，mm</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBJTHKN" title=""
+                                                              class="calculateSheetInput ZZBJRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;材料密度 ρ，kg/m³</td>
+        <td colspan="4" align="center" valign="middle"><input id="ZZBJD" title=""
+                                                              class="calculateSheetInput ZZBJRequired"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">计算结果</td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;高度 H，mm</td>
+        <td id="ZZBJH" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBJResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;内表面积 A<sub>i</sub>，m²</td>
+        <td id="ZZBJAI" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBJResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;外表面积 A<sub>o</sub>，m²</td>
+        <td id="ZZBJAO" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBJResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;内容积 V<sub>i</sub>，m³</td>
+        <td id="ZZBJVI" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBJResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+    <tr>
+        <td colspan="8" align="left" valign="middle">&ensp;质量 m，kg</td>
+        <td id="ZZBJM" colspan="4" align="center" valign="middle" class="calculateSheetResult ZZBJResult"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+        <td colspan="1" class="calculateSheetSep"></td>
+        <td colspan="12" align="left" valign="middle" class="calculateSheetOnlyTopBorder"></td>
+    </tr>
+</table>
+<script type="text/javascript" charset="utf-8" src="/static/west/cal/z/z/b/ZZB.js"></script>

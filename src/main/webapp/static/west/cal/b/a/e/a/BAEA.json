@@ -1,0 +1,250 @@
+{
+  "rows": [
+    {
+      "name": "设计温度, ℃",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "容器高度 H, mm",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "容器内部介质密度, kg/m³",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "壁板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "壁板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "壁板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "壁板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量, mm",
+      "group": "壁板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度, mm",
+      "group": "壁板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "沿壁板方向间距, mm",
+      "group": "垂直加固柱",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "顶边加固件",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "顶边加固件",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "顶边加固件",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "顶边加固件",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "拉杆",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "拉杆",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "拉杆",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "拉杆",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量, mm",
+      "group": "拉杆",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "直径 dgn, mm",
+      "group": "拉杆",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "长度 Lg, mm",
+      "group": "拉杆",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "rows": [
+    {
+      "name": "材料类别",
+      "group": "数据输入",
+      "value": "碳素钢和低合金钢",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "碳素钢和低合金钢",
+              "text": "碳素钢和低合金钢"
+            },
+            {
+              "value": "奥氏体钢",
+              "text": "奥氏体钢"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "试样原始标距, mm",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "试样原始横截面积, mm²",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "试样原始实测伸长率, %",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "目标试样原始标距, mm",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "目标试样原始横截面积, mm²",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

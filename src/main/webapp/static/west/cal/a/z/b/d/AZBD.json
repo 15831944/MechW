@@ -1,0 +1,49 @@
+{
+  "rows": [
+    {
+      "name": "容器的泄放量, kg/h",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "泄放时内外侧压差, MPa",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "泄放系数",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 1,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "介质泄放密度, kg/m³",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

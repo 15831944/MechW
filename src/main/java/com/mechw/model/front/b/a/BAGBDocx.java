@@ -1,0 +1,708 @@
+package com.mechw.model.front.b.a;
+
+public class BAGBDocx {
+
+    private String ribbonName;
+
+    private Double t;
+    private Double d;
+    private Double lc;
+    private Double bh;
+    private Double l;
+
+    private String jstd;
+    private String jname;
+
+    private String std1;
+    private String name1;
+    private Double c12;
+    private Double thk1n;
+
+    private String std2;
+    private String name2;
+    private Double c22;
+    private Double thk2n;
+
+    private Double d1;
+    private Double c11;
+    private Double o1t;
+    private Double e1t;
+
+    private Double d2;
+    private Double c21;
+    private Double o2t;
+    private Double e2t;
+
+    private Double ejt;
+
+    private Double g;
+    private Double pc;
+    private Double bhlc;
+    private Double alpha;
+    private Double beta;
+
+    private Double bh1;
+    private Double c1;
+    private Double thk1e;
+    private Double bh1lc;
+    private Double alpha1;
+    private Double beta1;
+    private Double sh1;
+    private Double pc1;
+
+    private Double bh2;
+    private Double c2;
+    private Double thk2e;
+    private Double bh2lc;
+    private Double alpha2;
+    private Double beta2;
+    private Double sh2;
+    private Double pc2;
+
+    private Double i0;
+
+    private Double lmax1;
+    private Double zp1;
+
+    private Double thk1c;
+    private Double thk1d;
+    private String thk1chk;
+    private Double f1allow;
+    private Double f1max;
+    private String f1chk;
+
+    private Double f1;
+    private Double i1;
+
+    private Double lmax2;
+    private Double zp2;
+
+    private Double thk2c;
+    private Double thk2d;
+    private String thk2chk;
+    private Double f2allow;
+    private Double f2max;
+    private String f2chk;
+
+    private Double lmax;
+    private String lcchk;
+    private Double zp;
+
+    public BAGBDocx() {
+    }
+
+    public BAGBDocx(String ribbonName, Double t, Double d, Double lc, Double bh, Double l, String jstd, String jname, String std1, String name1, Double c12, Double thk1n, String std2, String name2, Double c22, Double thk2n, Double d1, Double c11, Double o1t, Double e1t, Double d2, Double c21, Double o2t, Double e2t, Double ejt, Double g, Double pc, Double bhlc, Double alpha, Double beta, Double bh1, Double c1, Double thk1e, Double bh1lc, Double alpha1, Double beta1, Double sh1, Double pc1, Double bh2, Double c2, Double thk2e, Double bh2lc, Double alpha2, Double beta2, Double sh2, Double pc2, Double i0, Double lmax1, Double zp1, Double thk1c, Double thk1d, String thk1chk, Double f1allow, Double f1max, String f1chk, Double f1, Double i1, Double lmax2, Double zp2, Double thk2c, Double thk2d, String thk2chk, Double f2allow, Double f2max, String f2chk, Double lmax, String lcchk, Double zp) {
+        this.ribbonName = ribbonName;
+        this.t = t;
+        this.d = d;
+        this.lc = lc;
+        this.bh = bh;
+        this.l = l;
+        this.jstd = jstd;
+        this.jname = jname;
+        this.std1 = std1;
+        this.name1 = name1;
+        this.c12 = c12;
+        this.thk1n = thk1n;
+        this.std2 = std2;
+        this.name2 = name2;
+        this.c22 = c22;
+        this.thk2n = thk2n;
+        this.d1 = d1;
+        this.c11 = c11;
+        this.o1t = o1t;
+        this.e1t = e1t;
+        this.d2 = d2;
+        this.c21 = c21;
+        this.o2t = o2t;
+        this.e2t = e2t;
+        this.ejt = ejt;
+        this.g = g;
+        this.pc = pc;
+        this.bhlc = bhlc;
+        this.alpha = alpha;
+        this.beta = beta;
+        this.bh1 = bh1;
+        this.c1 = c1;
+        this.thk1e = thk1e;
+        this.bh1lc = bh1lc;
+        this.alpha1 = alpha1;
+        this.beta1 = beta1;
+        this.sh1 = sh1;
+        this.pc1 = pc1;
+        this.bh2 = bh2;
+        this.c2 = c2;
+        this.thk2e = thk2e;
+        this.bh2lc = bh2lc;
+        this.alpha2 = alpha2;
+        this.beta2 = beta2;
+        this.sh2 = sh2;
+        this.pc2 = pc2;
+        this.i0 = i0;
+        this.lmax1 = lmax1;
+        this.zp1 = zp1;
+        this.thk1c = thk1c;
+        this.thk1d = thk1d;
+        this.thk1chk = thk1chk;
+        this.f1allow = f1allow;
+        this.f1max = f1max;
+        this.f1chk = f1chk;
+        this.f1 = f1;
+        this.i1 = i1;
+        this.lmax2 = lmax2;
+        this.zp2 = zp2;
+        this.thk2c = thk2c;
+        this.thk2d = thk2d;
+        this.thk2chk = thk2chk;
+        this.f2allow = f2allow;
+        this.f2max = f2max;
+        this.f2chk = f2chk;
+        this.lmax = lmax;
+        this.lcchk = lcchk;
+        this.zp = zp;
+    }
+
+    public String getRibbonName() {
+        return ribbonName;
+    }
+
+    public void setRibbonName(String ribbonName) {
+        this.ribbonName = ribbonName;
+    }
+
+    public Double getT() {
+        return t;
+    }
+
+    public void setT(Double t) {
+        this.t = t;
+    }
+
+    public Double getD() {
+        return d;
+    }
+
+    public void setD(Double d) {
+        this.d = d;
+    }
+
+    public Double getLc() {
+        return lc;
+    }
+
+    public void setLc(Double lc) {
+        this.lc = lc;
+    }
+
+    public Double getBh() {
+        return bh;
+    }
+
+    public void setBh(Double bh) {
+        this.bh = bh;
+    }
+
+    public Double getL() {
+        return l;
+    }
+
+    public void setL(Double l) {
+        this.l = l;
+    }
+
+    public String getJstd() {
+        return jstd;
+    }
+
+    public void setJstd(String jstd) {
+        this.jstd = jstd;
+    }
+
+    public String getJname() {
+        return jname;
+    }
+
+    public void setJname(String jname) {
+        this.jname = jname;
+    }
+
+    public String getStd1() {
+        return std1;
+    }
+
+    public void setStd1(String std1) {
+        this.std1 = std1;
+    }
+
+    public String getName1() {
+        return name1;
+    }
+
+    public void setName1(String name1) {
+        this.name1 = name1;
+    }
+
+    public Double getC12() {
+        return c12;
+    }
+
+    public void setC12(Double c12) {
+        this.c12 = c12;
+    }
+
+    public Double getThk1n() {
+        return thk1n;
+    }
+
+    public void setThk1n(Double thk1n) {
+        this.thk1n = thk1n;
+    }
+
+    public String getStd2() {
+        return std2;
+    }
+
+    public void setStd2(String std2) {
+        this.std2 = std2;
+    }
+
+    public String getName2() {
+        return name2;
+    }
+
+    public void setName2(String name2) {
+        this.name2 = name2;
+    }
+
+    public Double getC22() {
+        return c22;
+    }
+
+    public void setC22(Double c22) {
+        this.c22 = c22;
+    }
+
+    public Double getThk2n() {
+        return thk2n;
+    }
+
+    public void setThk2n(Double thk2n) {
+        this.thk2n = thk2n;
+    }
+
+    public Double getD1() {
+        return d1;
+    }
+
+    public void setD1(Double d1) {
+        this.d1 = d1;
+    }
+
+    public Double getC11() {
+        return c11;
+    }
+
+    public void setC11(Double c11) {
+        this.c11 = c11;
+    }
+
+    public Double getO1t() {
+        return o1t;
+    }
+
+    public void setO1t(Double o1t) {
+        this.o1t = o1t;
+    }
+
+    public Double getE1t() {
+        return e1t;
+    }
+
+    public void setE1t(Double e1t) {
+        this.e1t = e1t;
+    }
+
+    public Double getD2() {
+        return d2;
+    }
+
+    public void setD2(Double d2) {
+        this.d2 = d2;
+    }
+
+    public Double getC21() {
+        return c21;
+    }
+
+    public void setC21(Double c21) {
+        this.c21 = c21;
+    }
+
+    public Double getO2t() {
+        return o2t;
+    }
+
+    public void setO2t(Double o2t) {
+        this.o2t = o2t;
+    }
+
+    public Double getE2t() {
+        return e2t;
+    }
+
+    public void setE2t(Double e2t) {
+        this.e2t = e2t;
+    }
+
+    public Double getEjt() {
+        return ejt;
+    }
+
+    public void setEjt(Double ejt) {
+        this.ejt = ejt;
+    }
+
+    public Double getG() {
+        return g;
+    }
+
+    public void setG(Double g) {
+        this.g = g;
+    }
+
+    public Double getPc() {
+        return pc;
+    }
+
+    public void setPc(Double pc) {
+        this.pc = pc;
+    }
+
+    public Double getBhlc() {
+        return bhlc;
+    }
+
+    public void setBhlc(Double bhlc) {
+        this.bhlc = bhlc;
+    }
+
+    public Double getAlpha() {
+        return alpha;
+    }
+
+    public void setAlpha(Double alpha) {
+        this.alpha = alpha;
+    }
+
+    public Double getBeta() {
+        return beta;
+    }
+
+    public void setBeta(Double beta) {
+        this.beta = beta;
+    }
+
+    public Double getBh1() {
+        return bh1;
+    }
+
+    public void setBh1(Double bh1) {
+        this.bh1 = bh1;
+    }
+
+    public Double getC1() {
+        return c1;
+    }
+
+    public void setC1(Double c1) {
+        this.c1 = c1;
+    }
+
+    public Double getThk1e() {
+        return thk1e;
+    }
+
+    public void setThk1e(Double thk1e) {
+        this.thk1e = thk1e;
+    }
+
+    public Double getBh1lc() {
+        return bh1lc;
+    }
+
+    public void setBh1lc(Double bh1lc) {
+        this.bh1lc = bh1lc;
+    }
+
+    public Double getAlpha1() {
+        return alpha1;
+    }
+
+    public void setAlpha1(Double alpha1) {
+        this.alpha1 = alpha1;
+    }
+
+    public Double getBeta1() {
+        return beta1;
+    }
+
+    public void setBeta1(Double beta1) {
+        this.beta1 = beta1;
+    }
+
+    public Double getSh1() {
+        return sh1;
+    }
+
+    public void setSh1(Double sh1) {
+        this.sh1 = sh1;
+    }
+
+    public Double getPc1() {
+        return pc1;
+    }
+
+    public void setPc1(Double pc1) {
+        this.pc1 = pc1;
+    }
+
+    public Double getBh2() {
+        return bh2;
+    }
+
+    public void setBh2(Double bh2) {
+        this.bh2 = bh2;
+    }
+
+    public Double getC2() {
+        return c2;
+    }
+
+    public void setC2(Double c2) {
+        this.c2 = c2;
+    }
+
+    public Double getThk2e() {
+        return thk2e;
+    }
+
+    public void setThk2e(Double thk2e) {
+        this.thk2e = thk2e;
+    }
+
+    public Double getBh2lc() {
+        return bh2lc;
+    }
+
+    public void setBh2lc(Double bh2lc) {
+        this.bh2lc = bh2lc;
+    }
+
+    public Double getAlpha2() {
+        return alpha2;
+    }
+
+    public void setAlpha2(Double alpha2) {
+        this.alpha2 = alpha2;
+    }
+
+    public Double getBeta2() {
+        return beta2;
+    }
+
+    public void setBeta2(Double beta2) {
+        this.beta2 = beta2;
+    }
+
+    public Double getSh2() {
+        return sh2;
+    }
+
+    public void setSh2(Double sh2) {
+        this.sh2 = sh2;
+    }
+
+    public Double getPc2() {
+        return pc2;
+    }
+
+    public void setPc2(Double pc2) {
+        this.pc2 = pc2;
+    }
+
+    public Double getI0() {
+        return i0;
+    }
+
+    public void setI0(Double i0) {
+        this.i0 = i0;
+    }
+
+    public Double getLmax1() {
+        return lmax1;
+    }
+
+    public void setLmax1(Double lmax1) {
+        this.lmax1 = lmax1;
+    }
+
+    public Double getZp1() {
+        return zp1;
+    }
+
+    public void setZp1(Double zp1) {
+        this.zp1 = zp1;
+    }
+
+    public Double getThk1c() {
+        return thk1c;
+    }
+
+    public void setThk1c(Double thk1c) {
+        this.thk1c = thk1c;
+    }
+
+    public Double getThk1d() {
+        return thk1d;
+    }
+
+    public void setThk1d(Double thk1d) {
+        this.thk1d = thk1d;
+    }
+
+    public String getThk1chk() {
+        return thk1chk;
+    }
+
+    public void setThk1chk(String thk1chk) {
+        this.thk1chk = thk1chk;
+    }
+
+    public Double getF1allow() {
+        return f1allow;
+    }
+
+    public void setF1allow(Double f1allow) {
+        this.f1allow = f1allow;
+    }
+
+    public Double getF1max() {
+        return f1max;
+    }
+
+    public void setF1max(Double f1max) {
+        this.f1max = f1max;
+    }
+
+    public String getF1chk() {
+        return f1chk;
+    }
+
+    public void setF1chk(String f1chk) {
+        this.f1chk = f1chk;
+    }
+
+    public Double getF1() {
+        return f1;
+    }
+
+    public void setF1(Double f1) {
+        this.f1 = f1;
+    }
+
+    public Double getI1() {
+        return i1;
+    }
+
+    public void setI1(Double i1) {
+        this.i1 = i1;
+    }
+
+    public Double getLmax2() {
+        return lmax2;
+    }
+
+    public void setLmax2(Double lmax2) {
+        this.lmax2 = lmax2;
+    }
+
+    public Double getZp2() {
+        return zp2;
+    }
+
+    public void setZp2(Double zp2) {
+        this.zp2 = zp2;
+    }
+
+    public Double getThk2c() {
+        return thk2c;
+    }
+
+    public void setThk2c(Double thk2c) {
+        this.thk2c = thk2c;
+    }
+
+    public Double getThk2d() {
+        return thk2d;
+    }
+
+    public void setThk2d(Double thk2d) {
+        this.thk2d = thk2d;
+    }
+
+    public String getThk2chk() {
+        return thk2chk;
+    }
+
+    public void setThk2chk(String thk2chk) {
+        this.thk2chk = thk2chk;
+    }
+
+    public Double getF2allow() {
+        return f2allow;
+    }
+
+    public void setF2allow(Double f2allow) {
+        this.f2allow = f2allow;
+    }
+
+    public Double getF2max() {
+        return f2max;
+    }
+
+    public void setF2max(Double f2max) {
+        this.f2max = f2max;
+    }
+
+    public String getF2chk() {
+        return f2chk;
+    }
+
+    public void setF2chk(String f2chk) {
+        this.f2chk = f2chk;
+    }
+
+    public Double getLmax() {
+        return lmax;
+    }
+
+    public void setLmax(Double lmax) {
+        this.lmax = lmax;
+    }
+
+    public String getLcchk() {
+        return lcchk;
+    }
+
+    public void setLcchk(String lcchk) {
+        this.lcchk = lcchk;
+    }
+
+    public Double getZp() {
+        return zp;
+    }
+
+    public void setZp(Double zp) {
+        this.zp = zp;
+    }
+}

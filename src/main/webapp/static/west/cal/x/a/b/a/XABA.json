@@ -1,0 +1,173 @@
+{
+  "rows": [
+    {
+      "name": "设计温度, ℃",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "填料质量, kg",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "填料持液量, kg",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "格栅质量, kg",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "支承梁材料类别",
+      "group": "设计数据",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "支承梁材料类型",
+      "group": "设计数据",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "支承梁材料标准号",
+      "group": "设计数据",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "支承梁材料牌号/名称",
+      "group": "设计数据",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量(单面), mm",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "横板名义厚度 δhn, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "竖板名义厚度 δvn, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "宽度 Wn, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "高度 H, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "梁(最大)跨度 L, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "支承梁数量 n",
+      "group": "支承型式",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 1,
+          "precision": 0
+        }
+      }
+    }
+  ]
+}

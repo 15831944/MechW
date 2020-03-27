@@ -1,0 +1,494 @@
+{
+  "rows": [
+    {
+      "name": "管口符号",
+      "group": "设计数据",
+      "value": "符号标记",
+      "editor": {
+        "type": "textbox"
+      }
+    },
+    {
+      "name": "设计压力, MPa",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 0.1,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "设计温度, ℃",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "介质静压力, MPa",
+      "group": "设计数据",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "压力试验类型",
+      "group": "设计数据",
+      "value": "液压试验",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "液压试验",
+              "text": "液压试验"
+            },
+            {
+              "value": "气压试验",
+              "text": "气压试验"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "封头",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "封头",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "封头",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "封头",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "内直径 Dsi, mm",
+      "group": "封头",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "球面部分内半径 Rsi, mm",
+      "group": "封头",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "转角内半径 rsi, mm",
+      "group": "封头",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度 δsn, mm",
+      "group": "封头",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量, mm",
+      "group": "封头",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "焊接接头系数",
+      "group": "封头",
+      "value": "1.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 1,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "接管",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "接管",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "接管",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "接管",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "外直径 Dpo, mm",
+      "group": "接管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度 δpn, mm",
+      "group": "接管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "实际外伸高度 hpo, mm",
+      "group": "接管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "实际内伸高度 hpi, mm",
+      "group": "接管",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "与封头轴线夹角 α, °",
+      "group": "接管",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 90,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "与过封头轴线和开孔中心的平面夹角β,°",
+      "group": "接管",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 90,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "开孔中心到封头轴线距离 L, mm",
+      "group": "接管",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量, mm",
+      "group": "接管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "焊接接头系数",
+      "group": "接管",
+      "value": "1.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 1,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "是否有补强圈？",
+      "group": "补强圈",
+      "value": "否",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "否",
+              "text": "否"
+            },
+            {
+              "value": "是",
+              "text": "是"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "补强圈",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "补强圈",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "补强圈",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "补强圈",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "外直径 Dro, mm",
+      "group": "补强圈",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度 δrn, mm",
+      "group": "补强圈",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量, mm",
+      "group": "补强圈",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "焊缝填角截面积 A3, mm²",
+      "group": "其他",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "是否指定补强范围 B？",
+      "group": "其他",
+      "value": "否",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "否",
+              "text": "否"
+            },
+            {
+              "value": "是",
+              "text": "是"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "实际补强范围 B, mm",
+      "group": "其他",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "name": "法兰设计内压力, MPa",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "垫片压紧力中心圆直径, mm",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "轴向外载荷拉力 F, N",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "外力矩 M, N•mm",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

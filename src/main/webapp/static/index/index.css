@@ -1,0 +1,443 @@
+/*
+** layout
+ */
+#north {
+    height: 135px;
+}
+
+#west {
+    width: 340px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+#center {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+#south {
+    height: 19px;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.layout-split-south {
+    border-top-width: 0;
+}
+
+.layout-split-west {
+    border-right-width: 0;
+}
+
+#d2 {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#d3 {
+    background: #87cefa;
+    background: -webkit-gradient(linear, 0 0, 0 top, from(deepskyblue), to(white));
+    background: -webkit-linear-gradient(top, deepskyblue, white);
+    background: -moz-linear-gradient(top, deepskyblue, white);
+    background: -o-linear-gradient(top, deepskyblue, white);
+    background: -ms-linear-gradient(top, deepskyblue, white);
+    background: linear-gradient(top, deepskyblue, white);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=deepskyblue, endColorstr=white);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.text {
+    background: transparent;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.sharp {
+    background: transparent;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#tool {
+    border-left-width: 1px;
+}
+
+#button {
+    cursor: default;
+    border-top: 1px rgb(221, 221, 221) solid !important;
+}
+
+/*
+** button
+ */
+
+#ASMPRT {
+    margin-left: 19px;
+    margin-top: 5px;
+    width: 80px;
+    height: 24px;
+}
+
+#DWG {
+    margin-left: 18px;
+    margin-top: 5px;
+    width: 80px;
+    height: 24px;
+}
+
+#DOCX {
+    margin-left: 18px;
+    margin-top: 5px;
+    width: 100px;
+    height: 24px;
+}
+
+a:not(.l-btn-disabled) > span > span.l-btn-text {
+    color: #000000;
+}
+
+/*
+** mouse
+ */
+a,
+.combobox-item,
+.ribbon-group-title,
+.datagrid-group-title,
+.datagrid-row-expander {
+    cursor: default !important;
+}
+
+/*
+** propertygrid
+ */
+table.datagrid-btable {
+    width: 100%;
+}
+
+div.datagrid-wrap.panel-body {
+    border-bottom-width: 1px;
+}
+
+div.datagrid-body > table.datagrid-btable:last-child > tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
+
+div.datagrid-wrap.panel-body.panel-body-noheader {
+    border-top-width: 0;
+    border-right-width: 0;
+}
+
+tr.datagrid-row > td:last-child {
+    border-right-width: 0;
+}
+
+div.datagrid-body > div.datagrid-group:nth-last-of-type(1) {
+    border-bottom-width: 0 !important;
+}
+
+div.datagrid-body > table.datagrid-btable:nth-last-of-type(1) > tbody > tr:first-child > td {
+    border-top-width: 1px;
+}
+
+tr.datagrid-header-row > td:first-child > div.datagrid-cell.datagrid-cell-c1-name {
+    text-align: center !important;
+}
+
+div.datagrid-view2 > div.datagrid-header > div.datagrid-header-inner > table.datagrid-htable > tbody > tr.datagrid-header-row > td:last-child {
+    border-right-width: 0;
+}
+
+div.panel-title {
+    text-align: center;
+    cursor: default;
+}
+
+/*
+** help
+ */
+#HELPAA {
+    margin-right: 6px;
+    width: 94px;
+    height: 94px;
+    border-color: #3498DB;
+}
+
+#HELPAA > span.l-btn-left.l-btn-icon-bottom {
+    width: 94px;
+    height: 94px;
+}
+
+#HELPAA > span.l-btn-left.l-btn-icon-bottom > span.l-btn-text.l-btn-empty {
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+#HELPAA > span.l-btn-left.l-btn-icon-bottom > span.l-btn-icon.icon-qqgroup {
+    margin-left: 0;
+    width: 94px;
+    height: 94px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#HELPAC {
+    margin-left: 6px;
+    width: 94px;
+    height: 94px;
+    border-color: #00ee00;
+}
+
+#HELPAC > span.l-btn-left.l-btn-icon-bottom {
+    width: 94px;
+    height: 94px;
+}
+
+#HELPAC > span.l-btn-left.l-btn-icon-bottom > span.l-btn-text.l-btn-empty {
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+
+#HELPAC > span.l-btn-left.l-btn-icon-bottom > span.l-btn-icon.icon-wechat {
+    margin-left: 0;
+    width: 94px;
+    height: 94px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/*
+** d3
+ */
+path.sketch,
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+ellipse.sketch {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.grid-line {
+    fill: black;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+path.arrow {
+    fill: black;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.popWindow {
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div.panel-tool {
+    top: 13px !important;
+}
+
+#HELPZADIV .mCSB_container > ul > li {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#HELPZADIV .mCSB_container > div > ul > li {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#HELPZBDIV .mCSB_container > ul > li {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#HELPZBDIV .mCSB_container > div > ul > li {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.mCSB_container > ul > li {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.mCSB_container > div > ul > li {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.mCSB_container > ol > li {
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.mCSB_container > div > ol > li {
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+#center ul li a {
+    text-decoration: none !important;
+}
+
+/**
+calculate sheet style
+ */
+.calculateSheetTitle {
+    color: red;
+    border: 1px solid white;
+    border-bottom-color: black;
+}
+
+.calculateSheetSep {
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+}
+
+.calculateSheetInput {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+
+.calculateSheetResult {
+    color: #18bc9c;
+    border-color: black;
+}
+
+.calculateSheetOnlyTopBorder {
+    border-bottom: 1px white solid;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+}
+
+.calculateSheetNoBorder {
+    border: 1px white solid;
+}
+
+.fa-long-arrow-up:before {
+    font-size: 15px;
+    color: black;
+}
+
+.fa-indent:before {
+    font-size: 15px;
+    color: black;
+}
+
+.fa-cogs:before {
+    font-size: 15px;
+    color: black;
+}
+
+.fa-search:before {
+    font-size: 15px;
+    color: black;
+}
+
+.fa-search-minus:before {
+    font-size: 16px;
+    color: black;
+}
+
+.fa-search-plus:before {
+    font-size: 16px;
+    color: black;
+}
+
+#ZACASearchButton:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+#ZACBSearchButton:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.calculateSheetSelect {
+    color: red;
+    width: 100%;
+    border: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+    text-align-last: center;
+}
+
+.calculateSheetSelect > option {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.calculateSheetSelect::-ms-expand {
+    display: none;
+    outline: none;
+}
+
+#AjaxAlert {
+    padding: 0;
+    border-width: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+.propertygrid > .panel-header {
+    border-top: 0;
+    border-right: 0;
+}
+
+.datagrid-wrap.panel-body {
+    border-right-width: 0;
+}
+
+#north .tabs-scroller-left {
+    border-top: none;
+    border-left: none;
+}
+
+#north .tabs-scroller-right {
+    border-top: none;
+    border-right: none;
+}
+
+#canvas .tabs-scroller-left {
+    border-bottom: none;
+    border-left: none;
+}
+
+#canvas .tabs-scroller-right {
+    border-bottom: none;
+    border-right: none;
+}

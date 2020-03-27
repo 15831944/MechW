@@ -1,0 +1,37 @@
+<div class="weui-wepay-code-wrap">
+    <article class="confirm">
+        <div class="info-area">
+            <dl class="totle">
+                <dt class="totle-title">MechW</dt>
+                <dd id="total_fee" class="totle-num">¥</dd>
+            </dl>
+            <table>
+                <tr>
+                    <td colspan="2">订单号：</td>
+                    <td colspan="8" id="out_trade_no"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">名称：</td>
+                    <td colspan="8" id="product_name"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">数量：</td>
+                    <td colspan="8">×1</td>
+                </tr>
+            </table>
+        </div>
+        <div class="weui-wepay-code weui-wepay-code_logo">
+            <div class="weui-wepay-code__bd">
+                <img src="/static/payjs/wepay_logo_default_white_500x126.png">
+                <div class="weui-wepay-code__main">
+                    <div id="payjs_qrcode"></div>
+                    <h2 class="weui-wepay-code__subtitle">微信扫码付款</h2>
+                </div>
+            </div>
+        </div>
+        <a id="payjs_cancel" class="weui-btn weui-btn_default">取消订单</a>
+        <div class="weui-wepay-logos weui-wepay-logos_ft">
+            <img src="https://act.weixin.qq.com/static/cdn/img/wepayui/0.1.1/wepay_logo_default_gray.svg" height="16">
+        </div>
+    </article>
+</div>

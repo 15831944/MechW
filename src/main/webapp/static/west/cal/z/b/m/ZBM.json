@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "name": "截面宽度 m, mm",
+      "group": "结构尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "截面高度 n, mm",
+      "group": "结构尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "截面厚度 c, mm",
+      "group": "结构尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

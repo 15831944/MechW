@@ -1,0 +1,26 @@
+{
+  "rows": [
+    {
+      "name": "外直径 D, mm",
+      "group": "结构尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "内直径 d, mm",
+      "group": "结构尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

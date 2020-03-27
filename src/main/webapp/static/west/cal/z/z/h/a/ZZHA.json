@@ -1,0 +1,71 @@
+{
+  "rows": [
+    {
+      "name": "盘管外直径 Do, mm",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "盘管壁厚 δ, mm",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "盘管中心圆直径 Dm, mm",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "盘管中心距 h, mm",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "盘管圈数 n",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "name": "盘管材料密度, kg/m³",
+      "value": "7850",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

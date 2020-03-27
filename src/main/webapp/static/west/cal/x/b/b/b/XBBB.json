@@ -1,0 +1,524 @@
+{
+  "rows": [
+    {
+      "name": "支腿设计温度, ℃",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "壳体总高(含保温层) H<sub>0</sub>, mm",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "筒体外直径(不含保温层) D<sub>s0</sub>, mm",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "壳体外直径(含保温层) D<sub>0</sub>, mm",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "容器最大操作重量 m<sub>0</sub>, kg",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "10m高度基本风压 q<sub>0</sub>, Pa",
+      "group": "地震/风载荷",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "风压高度变化系数, f<sub>i</sub>",
+      "group": "地震/风载荷",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "设计基本地震加速度",
+      "group": "地震/风载荷",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "0.1g",
+              "text": "0.1g"
+            },
+            {
+              "value": "0.15g",
+              "text": "0.15g"
+            },
+            {
+              "value": "0.2g",
+              "text": "0.2g"
+            },
+            {
+              "value": "0.3g",
+              "text": "0.3g"
+            },
+            {
+              "value": "0.4g",
+              "text": "0.4g"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "支腿",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "支腿",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "支腿",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "支腿",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "角钢规格",
+      "group": "支腿",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "支腿数量",
+      "group": "支腿",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 3,
+          "precision": 0
+        }
+      }
+    },
+    {
+      "name": "支腿到基础板边缘最大距离 B, mm",
+      "group": "支腿",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "与壳体装配焊缝长度 h<sub>f</sub>, mm",
+      "group": "支腿",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "装配焊缝焊脚高度 t<sub>f1</sub>, mm",
+      "group": "支腿",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "地脚螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "地脚螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "地脚螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "地脚螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "螺栓规格",
+      "group": "地脚螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "M12",
+              "text": "M12"
+            },
+            {
+              "value": "M16",
+              "text": "M16"
+            },
+            {
+              "value": "M20",
+              "text": "M20"
+            },
+            {
+              "value": "M22",
+              "text": "M22"
+            },
+            {
+              "value": "M24",
+              "text": "M24"
+            },
+            {
+              "value": "M27",
+              "text": "M27"
+            },
+            {
+              "value": "M30",
+              "text": "M30"
+            },
+            {
+              "value": "M36",
+              "text": "M36"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "单个支腿螺栓个数",
+      "group": "地脚螺栓",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 1,
+          "precision": 0
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量 mm",
+      "group": "地脚螺栓",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "底板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "底板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "底板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "底板",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "厚度 δdn, mm",
+      "group": "底板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量 mm",
+      "group": "底板",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "长度 d<sub>1</sub>, mm",
+      "group": "底板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "宽度 d<sub>2</sub>, mm",
+      "group": "底板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "支承高度 H, mm",
+      "group": "底板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "下表面到设备质心高度 Hc, mm",
+      "group": "底板",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "混凝土许用耐压应力 MPa",
+      "group": "基础",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "15",
+              "text": "15"
+            },
+            {
+              "value": "20",
+              "text": "20"
+            },
+            {
+              "value": "25",
+              "text": "25"
+            },
+            {
+              "value": "30",
+              "text": "30"
+            },
+            {
+              "value": "35",
+              "text": "35"
+            },
+            {
+              "value": "40",
+              "text": "40"
+            },
+            {
+              "value": "45",
+              "text": "45"
+            },
+            {
+              "value": "50",
+              "text": "50"
+            },
+            {
+              "value": "55",
+              "text": "55"
+            },
+            {
+              "value": "60",
+              "text": "60"
+            },
+            {
+              "value": "65",
+              "text": "65"
+            },
+            {
+              "value": "70",
+              "text": "70"
+            },
+            {
+              "value": "75",
+              "text": "75"
+            },
+            {
+              "value": "80",
+              "text": "80"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    }
+  ]
+}

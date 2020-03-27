@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MechW - 压力容器 | 强度计算 | 标准下载</title>
+        <style>
+            #nprogress {
+                pointer-events: none;
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: white;
+                z-index: 999;
+            }
+            .splash {
+                background-color:white;
+                padding:20px 25px 15px;
+                margin: 0 auto 25px;
+                width:500px;
+                position:absolute;
+                top:40%;
+                left:0;
+                right:0;
+            }
+            .progress {
+                height:20px;
+                overflow:hidden;
+                border:1px solid;
+                padding:0;
+            }
+            .mybar {
+                background:darkgrey;height:20px;
+            }
+        </style>
+        <script type="text/javascript" charset="utf-8" src="/3rd/jquery/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/3rd/nprogress/nprogress.min.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(function(){
+                NProgress.configure({
+                    template: $('#splash-template').html()
+                });
+                NProgress.start();
+            });
+        </script>
+        <link rel="icon" href="/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/3rd/jquery-easyui-1.5.3/themes/metro/easyui.css">
+        <link rel="stylesheet" type="text/css" href="/3rd/jquery-easyui-1.5.3/themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="/3rd/jquery-easyui-1.5.3/ribbon/ribbon.css">
+        <link rel="stylesheet" type="text/css" href="/3rd/jquery-easyui-1.5.3/ribbon/ribbon-icon.css">
+        <link rel="stylesheet" type="text/css" href="/3rd/PaymentFont-1.2.5/css/paymentfont.css">
+        <link rel="stylesheet" type="text/css" href="/3rd/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/3rd/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" type="text/css" href="/static/payjs/wepay_index.css">
+        <link rel="stylesheet" type="text/css" href="/static/payjs/wepayui.min.css">
+        <link rel="stylesheet" type="text/css" href="/static/index/index.css">
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6e788e0b8ff7b83e050aa7a836589c2e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </head>
+    <body id="body" class="easyui-layout" data-options="fit:true">
+        <script id="splash-template" type="text">
+            <div class="splash">
+                <p class="lead" style="text-align:center">Loading...</p>
+                <div class="progress">
+                    <div class="mybar" role="bar"></div>
+                </div>
+            </div>
+        </script>
+        <div id="north" data-options="region:'north',border:false"></div>
+        <div id="west" data-options="region:'west',border:false">
+            <div id="westcontent" class="easyui-layout" data-options="fit:true,border:false">
+                <div id="cal" data-options="region:'center',border:false"></div>
+            </div>
+        </div>
+        <div id="center" data-options="region:'center',border:false"></div>
+        <div id="south" data-options="region:'south',split:true,border:false,minHeight:22"></div>
+        <div id="payjs"></div>
+        <script type="text/javascript" charset="utf-8" src="/3rd/jquery-easyui-1.5.3/jquery.easyui.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/3rd/jquery-easyui-1.5.3/ribbon/jquery.ribbon.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/3rd/three/js/three.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/3rd/three/js/Detector.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/3rd/three/js/TrackballControls.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/3rd/three/js/ThreeBSP.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/static/index/divResize.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/3rd/d3/d3.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/3rd/custom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/3rd/jquery-qrcode/jquery.qrcode.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="/static/index/index.js"></script>
+    </body>
+</html>

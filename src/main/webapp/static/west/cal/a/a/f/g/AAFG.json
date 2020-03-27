@@ -1,0 +1,306 @@
+{
+  "rows": [
+    {
+      "name": "设计压力，MPa",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 35,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "设计温度，℃",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "介质静压力，MPa",
+      "group": "设计数据",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "试验类型",
+      "group": "设计数据",
+      "value": "液压试验",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "液压试验",
+              "text": "液压试验"
+            },
+            {
+              "value": "气压试验",
+              "text": "气压试验"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "锥壳",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "锥壳",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "锥壳",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号",
+      "group": "锥壳",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "大端直边内直径 Dsi，mm",
+      "group": "锥壳",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "半顶角 α，°",
+      "group": "锥壳",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 10,
+          "max": 45,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度 δcn，mm",
+      "group": "锥壳",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "转角内半径 r，mm",
+      "group": "锥壳",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量，mm",
+      "group": "锥壳",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "焊接接头系数",
+      "group": "锥壳",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 1,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "小端筒体",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "小端筒体",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "小端筒体",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号",
+      "group": "小端筒体",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "内直径 Dpi，mm",
+      "group": "小端筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度 δpn，mm",
+      "group": "小端筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量，mm",
+      "group": "小端筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "焊接接头系数",
+      "group": "小端筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 1,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "小端是否考虑轴向外载荷？",
+      "group": "外载荷",
+      "value": "否",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "是",
+              "text": "是"
+            },
+            {
+              "value": "否",
+              "text": "否"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "小端轴向外载荷，N",
+      "group": "外载荷",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

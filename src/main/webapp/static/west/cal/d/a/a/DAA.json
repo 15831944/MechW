@@ -1,0 +1,232 @@
+{
+  "rows": [
+    {
+      "name": "设计压力, MPa",
+      "group": "设计条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "操作介质静压力, MPa",
+      "group": "设计条件",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "设计温度, °C",
+      "group": "设计条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "最低设计金属温度 MDMT, °C",
+      "group": "设计条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "压力试验",
+      "group": "设计条件",
+      "value": "液压试验",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "液压试验",
+              "text": "液压试验"
+            },
+            {
+              "value": "气压试验",
+              "text": "气压试验"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "试验介质静压力, MPa",
+      "group": "设计条件",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "内壁腐蚀裕量, mm",
+      "group": "设计条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "外壁腐蚀裕量, mm",
+      "group": "设计条件",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "纵向焊接接头系数",
+      "group": "设计条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 1,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "环向焊接接头系数",
+      "group": "设计条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 1,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名称",
+      "group": "材料",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": true,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "形式",
+      "group": "材料",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "基准",
+      "group": "几何尺寸",
+      "value": "内径",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "内径",
+              "text": "内径"
+            },
+            {
+              "value": "外径",
+              "text": "外径"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "内直径 Di, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "外直径 Do, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度 tn, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "最小成形厚度 tf, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "长度 L, mm",
+      "group": "几何尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "rows": [
+    {
+      "name": "容器型式",
+      "group": "计算条件",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "卧式容器(半球封头)",
+              "text": "卧式容器(半球封头)"
+            },
+            {
+              "value": "卧式容器(椭圆封头)",
+              "text": "卧式容器(椭圆封头)"
+            },
+            {
+              "value": "立式容器",
+              "text": "立式容器"
+            },
+            {
+              "value": "球形容器",
+              "text": "球形容器"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "有无完整可靠的隔热层？",
+      "group": "计算条件",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "无",
+              "text": "无"
+            },
+            {
+              "value": "有",
+              "text": "有"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "容器外直径, m",
+      "group": "计算条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "介质泄放压力下汽化潜热, kJ/kg",
+      "group": "计算条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "容器总长, m",
+      "group": "计算条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "容器最高液位, m",
+      "group": "计算条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "地面到7.5m的容器外表面积, m²",
+      "group": "计算条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "容器覆盖类型",
+      "group": "计算条件",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "地面上",
+              "text": "地面上"
+            },
+            {
+              "value": "地面以下砂土覆盖",
+              "text": "地面以下砂土覆盖"
+            },
+            {
+              "value": "喷淋装置>10L/(m²·min)",
+              "text": "喷淋装置>10L/(m²·min)"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "隔热层厚度, m",
+      "group": "计算条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "隔热材料常温导热系数, kJ/(m·h·°C)",
+      "group": "计算条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "介质泄放压力下饱和温度, °C",
+      "group": "计算条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "容器是否位于可能的火灾环境？",
+      "group": "计算条件",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "是",
+              "text": "是"
+            },
+            {
+              "value": "否",
+              "text": "否"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    }
+  ]
+}

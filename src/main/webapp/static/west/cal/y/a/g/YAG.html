@@ -1,0 +1,649 @@
+<table width="100%" border="1px" cellpadding="0" cellspacing="0"
+       style="table-layout:fixed;border-collapse:collapse;border-color:black;margin-top:15px;margin-bottom:15px;">
+    <tbody id="YAGTBody">
+    <tr>
+        <td colspan="5" align="center" valign="middle" style="color:red;border-color:black;">数据输入</td>
+        <td colspan="7" align="center" valign="middle"></td>
+    </tr>
+    <tr>
+        <td colspan="3">&ensp;设备公称直径，DN</td>
+        <td colspan="1" align="center" valign="middle">/</td>
+        <td id="YAGDNTd" colspan="1">
+            <select id="YAGDN" title="" class="calculateSheetSelect">
+                <option value="YAGNull"></option>
+            </select>
+        </td>
+        <td id="YAGSketch" colspan="7" rowspan="4" style="vertical-align:bottom;"></td>
+    </tr>
+    <tr>
+        <td colspan="3">&ensp;吊耳(单个)实际吊装质量</td>
+        <td colspan="1" align="center" valign="middle">t</td>
+        <td colspan="1">
+            <input id="YAGLiftWeight" align="center" type="text" title="" class="calculateSheetInput">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="5" align="center" valign="middle" style="color: #18bc9c;border-color:black;">选型结果</td>
+    </tr>
+    <tr>
+        <td colspan="3">&ensp;可用的吊耳型号</td>
+        <td colspan="1" align="center" valign="middle">/</td>
+        <td id="YAGTypeTd" colspan="1">
+            <select id="YAGType" class="calculateSheetSelect" title="">
+                <option value="YAGNull"></option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" style="color: #18bc9c;border-color:black;">结构尺寸</td>
+    </tr>
+    <tr id="YAGInsert">
+        <td colspan="1" align="center" valign="middle">吊耳标记</td>
+        <td colspan="1" align="center" valign="middle">吊耳型号</td>
+        <td colspan="1" align="center" valign="middle">最大吊重<br>t</td>
+        <td colspan="1" align="center" valign="middle">挡板外径<br>D<sub>2</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">挡板厚度<br>S<sub>2</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">管轴外径<br>D<sub>o</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">管轴厚度<br>S，mm</td>
+        <td colspan="1" align="center" valign="middle">管轴长度<br>L+S<sub>1</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">垫板外径<br>D<sub>1</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">垫板厚度<br>S<sub>1</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">壳体厚度<br>δ<sub>min</sub>，mm</td>
+        <td colspan="1" align="center" valign="middle">质量 kg</td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width="6.25311in"
+                 height="3.77148in"
+                 viewBox="0 0 450.224 271.547"
+                 class="YAGst13">
+                <style type="text/css">
+                    .YAGst1 {
+                        fill: none
+                    }
+
+                    .YAGst2 {
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YAGst3 {
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YAGst4 {
+                        fill: #000000;
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YAGst5 {
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YAGst6 {
+                        fill: none;
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YAGst8 {
+                        fill: #000000;
+                        font-family: Microsoft Sans Serif, sans-serif;
+                        font-size: 0.973389em
+                    }
+
+                    .YAGst9 {
+                        fill: #000000;
+                        stroke: #000000;
+                        stroke-linecap: round;
+                        stroke-linejoin: round;
+                        stroke-width: 0.75
+                    }
+
+                    .YAGst10 {
+                        fill: #000000;
+                        font-family: Cambria Math, sans-serif;
+                        font-size: 0.973389em
+                    }
+
+                    .YAGst12 {
+                        fill: #000000;
+                        font-family: 微软雅黑, sans-serif;
+                        font-size: 0.973389em
+                    }
+
+                    .YAGst13 {
+                        fill: none;
+                        fill-rule: evenodd;
+                        font-size: 12px;
+                        overflow: visible;
+                        stroke-linecap: square;
+                        stroke-miterlimit: 3
+                    }
+                </style>
+                <g>
+                    <g>
+                        <path d="M0 0 L450.22 0 L450.22 271.55 L0 271.55 L0 0 Z" class="YAGst1"></path>
+                    </g>
+                    <g transform="translate(68.6446,-202.555)">
+                        <path d="M0 271.55 L3.17 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(345.634,71.2597) rotate(90)">
+                        <path d="M0 271.55 L12.25 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(71.8194,449.389) rotate(180)">
+                        <path d="M0 271.55 L3.17 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(-202.902,177.842) rotate(-90)">
+                        <path d="M0 271.55 L14.51 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(63.2021,-188.041)">
+                        <path d="M0 271.55 L152.8 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(63.2021,-184.413)">
+                        <path d="M0 271.55 L152.8 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(63.2021,-111.846)">
+                        <path d="M0 271.55 L152.8 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(63.2021,-108.218)">
+                        <path d="M0 271.55 L152.8 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(-60.991,83.5054) rotate(-90)">
+                        <path d="M0 271.55 L29.03 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(210.556,-217.068)">
+                        <path d="M0 271.55 L5.44 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(215.998,463.903) rotate(180)">
+                        <path d="M0 271.55 L5.44 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(-60.991,192.356) rotate(-90)">
+                        <path d="M0 271.55 L29.03 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(492.987,40.0384) rotate(90)">
+                        <path d="M0 271.55 L164.49 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(-55.5485,207.13) rotate(-90)">
+                        <path d="M0 271.55 L164.91 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(213.71,-64.0835)">
+                        <path d="M10.53 271.05 C8.99 269.46 7.44 267.86 6.37 268.56 C5.6 269.07 5.07 270.77 4.25 271.33 C3.17 272.07 1.59 270.87 0 269.67 L10.53 271.05 Z"
+                              class="YAGst1"></path>
+                        <path d="M10.53 271.05 C8.99 269.46 7.44 267.86 6.37 268.56 C5.6 269.07 5.07 270.77 4.25 271.33 C3.17 272.07 1.59 270.87 0 269.67"
+                              class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(213.845,-228.905)">
+                        <path d="M9.24 270.86 C8.12 269.42 6.99 267.98 6.12 268.39 C5.29 268.79 4.7 270.84 3.83 271.39 C2.8 272.04 1.4 270.6 0 269.16 L9.24 270.86 Z"
+                              class="YAGst1"></path>
+                        <path d="M9.24 270.86 C8.12 269.42 6.99 267.98 6.12 268.39 C5.29 268.79 4.7 270.84 3.83 271.39 C2.8 272.04 1.4 270.6 0 269.16"
+                              class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(55.8141,-148.13)">
+                        <path d="M0 271.55 L171.07 271.55" class="YAGst3"></path>
+                    </g>
+                    <g transform="translate(71.8194,-200.287)">
+                        <path d="M2.27 271.55 A2.26772 2.26772 -180 0 0 -0 269.28 L2.27 271.55 Z" class="YAGst1"></path>
+                        <path d="M2.27 271.55 A2.26772 2.26772 -180 0 0 -0 269.28" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(71.8194,-93.7043)">
+                        <path d="M0 271.55 A2.26772 2.26772 -180 0 0 2.27 269.28 L0 271.55 Z" class="YAGst1"></path>
+                        <path d="M0 271.55 A2.26772 2.26772 -180 0 0 2.27 269.28" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(-184.846,153.787) rotate(-105)">
+                        <path d="M0 271.55 L52.81 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(-194.098,83.5054) rotate(-90)">
+                        <path d="M0 271.55 L1.09 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(62.606,-238.857)">
+                        <path d="M1.9 271.16 L0.44 271.55 L0 266.97 L1.9 271.16 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(-194.098,80.1486) rotate(-90)">
+                        <path d="M0 271.55 L39.74 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(70.2006,-228.221)">
+                        <path d="M3.85 271.04 A40.8285 40.8285 -180 0 0 -0 271.55 L3.85 271.04 Z" class="YAGst1"></path>
+                        <path d="M3.85 271.04 A40.8285 40.8285 -180 0 0 -0 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(66.8811,-227.479)">
+                        <path d="M3.2 270.25 L3.44 271.36 L0 271.55 L3.2 270.25 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(74.0261,-228.162)">
+                        <path d="M0.05 271.55 L0 270.41 L3.42 270.84 L0.05 271.55 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(63.2021,-161.282)">
+                        <path d="M0 271.55 L150.22 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(63.2021,-157.654)">
+                        <path d="M0 271.55 L150.22 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(-208.345,163.329) rotate(-90)">
+                        <path d="M0 271.55 L79.82 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(-202.902,83.5054) rotate(-90)">
+                        <path d="M0 271.55 L14.51 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(345.634,163.329) rotate(90)">
+                        <path d="M0 271.55 L12.25 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(298.999,-111.846)">
+                        <ellipse cx="36.2835" cy="235.263" rx="36.2835" ry="36.2835" class="YAGst6"></ellipse>
+                    </g>
+                    <g transform="translate(295.371,-108.218)">
+                        <ellipse cx="39.9118" cy="231.635" rx="39.9118" ry="39.9118" class="YAGst6"></ellipse>
+                    </g>
+                    <g transform="translate(266.344,-79.1909)">
+                        <ellipse cx="68.9386" cy="202.608" rx="68.9386" ry="68.9386" class="YAGst6"></ellipse>
+                    </g>
+                    <g transform="translate(280.857,-93.7043)">
+                        <ellipse cx="54.4252" cy="217.122" rx="54.4252" ry="54.4252" class="YAGst6"></ellipse>
+                    </g>
+                    <g transform="translate(335.282,-148.13)">
+                        <path d="M0 271.55 L75.74 271.55" class="YAGst3"></path>
+                    </g>
+                    <g transform="translate(63.7357,123.417) rotate(-90)">
+                        <path d="M0 271.55 L75.74 271.55" class="YAGst3"></path>
+                    </g>
+                    <g transform="translate(484.969,121.603) rotate(90)">
+                        <path d="M0 271.55 L3.63 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(-58.1245,121.603) rotate(-90)">
+                        <path d="M0 271.55 L34.47 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(484.969,125.231) rotate(90)">
+                        <path d="M0 271.55 L34.47 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(63.2021,-134.977)">
+                        <path d="M0 271.55 L150.22 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(63.2021,-138.605)">
+                        <path d="M0 271.55 L150.22 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(301.467,-161.282)">
+                        <path d="M0 271.55 L67.63 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(300.271,-157.654)">
+                        <path d="M0 271.55 L70.02 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(300.271,-138.605)">
+                        <path d="M0 271.55 L70.02 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(301.467,-134.977)">
+                        <path d="M0 271.55 L67.63 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(50.583,157.233) rotate(-90)">
+                        <path d="M0 271.55 L20.66 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(54.2113,158.428) rotate(-90)">
+                        <path d="M0 271.55 L21.86 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(73.2602,158.428) rotate(-90)">
+                        <path d="M0 271.55 L21.86 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(76.8885,157.233) rotate(-90)">
+                        <path d="M0 271.55 L20.66 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(76.8885,110.264) rotate(-90)">
+                        <path d="M0 271.55 L20.66 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(73.2602,110.264) rotate(-90)">
+                        <path d="M0 271.55 L21.86 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(54.2113,110.264) rotate(-90)">
+                        <path d="M0 271.55 L21.86 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(50.583,110.264) rotate(-90)">
+                        <path d="M0 271.55 L20.66 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(54.2113,132.942) rotate(-90)">
+                        <path d="M0 271.55 L19.05 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(50.583,132.942) rotate(-90)">
+                        <path d="M0 271.55 L19.05 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(76.8885,132.942) rotate(-90)">
+                        <path d="M0 271.55 L19.05 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(73.2602,132.942) rotate(-90)">
+                        <path d="M0 271.55 L19.05 271.55" class="YAGst2"></path>
+                    </g>
+                    <g transform="translate(595.491,82.2007) rotate(90)">
+                        <path d="M0 271.55 L82.43 271.55" class="YAGst3"></path>
+                    </g>
+                    <g transform="translate(618.168,82.2007) rotate(90)">
+                        <path d="M0 271.55 L82.43 271.55" class="YAGst3"></path>
+                    </g>
+                    <g transform="translate(294.066,-159.468)">
+                        <path d="M0 271.55 L82.43 271.55" class="YAGst3"></path>
+                    </g>
+                    <g transform="translate(294.066,-136.791)">
+                        <path d="M0 271.55 L82.43 271.55" class="YAGst3"></path>
+                    </g>
+                    <g transform="translate(378.767,-136.791)">
+                        <path d="M0 271.55 L51.23 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(378.767,-159.468)">
+                        <path d="M0 271.55 L51.23 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(156.185,130.674) rotate(-90)">
+                        <path d="M0 271.55 L14.51 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(427.052,-136.791)">
+                        <path d="M0 267.46 L1.36 267.46 L0.68 271.55 L0 267.46 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(427.052,-155.386)">
+                        <path d="M0 271.55 L1.36 271.55 L0.68 267.46 L0 271.55 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(154.656,127.669) rotate(-90)">
+                        <text id="YAGSketchT-1" text-anchor="middle" x="4" y="269.21" class="YAGst8">T</text>
+                    </g>
+                    <g transform="translate(52.3972,79.933) rotate(-90)">
+                        <path d="M0 271.55 L40.85 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(75.0743,79.933) rotate(-90)">
+                        <path d="M0 271.55 L40.85 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(328.026,-230.193)">
+                        <path d="M0 271.55 L14.51 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(323.944,-229.513)">
+                        <path d="M4.08 270.19 L4.08 271.55 L0 270.87 L4.08 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(342.539,-229.513)">
+                        <path d="M0 270.19 L0 271.55 L4.08 270.87 L0 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(331.031,-231.723)">
+                        <text id="YAGSketchT-2" text-anchor="middle" x="4" y="269.21" class="YAGst8">T</text>
+                    </g>
+                    <g transform="translate(219.395,-52.4591) rotate(31.57)">
+                        <path d="M0 271.55 L16.56 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(91.3386,-83.9778)">
+                        <path d="M0 271.55 L13.72 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(73.7515,-92.0681)">
+                        <path d="M3.83 270.39 L3.12 271.55 L0 268.83 L3.83 270.39 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(91.3953,-85.5075)">
+                        <text x="1.04" y="269.21" class="YAGst8">R4</text>
+                    </g>
+                    <g transform="translate(340.191,180.11) rotate(90)">
+                        <path d="M0 271.55 L27.21 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(334.749,165.597) rotate(90)">
+                        <path d="M0 271.55 L41.73 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(68.6446,-66.4917)">
+                        <path d="M0 271.55 L4.08 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(59.1202,476.602) rotate(180)">
+                        <path d="M0 271.55 L21.2 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(68.6446,476.602) rotate(180)">
+                        <path d="M0 271.55 L5.44 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(69.1548,476.092) rotate(180)">
+                        <path d="M0 271.04 L0.15 271.4 L0.51 271.04 L0.51 271.04 L0 271.04 ZM0.15 271.4 L0.51 271.55 L0.51 271.04 L0.51 271.04 L0.15 271.4 ZM0.51 271.55 L0.87 271.4 L0.51 271.04 L0.51 271.04 L0.51 271.55 ZM0.87 271.4 L1.02 271.04 L0.51 271.04 L0.51 271.04 L0.87 271.4 ZM1.02 271.04 L0.87 270.68 L0.51 271.04 L0.51 271.04 L1.02 271.04 ZM0.87 270.68 L0.51 270.53 L0.51 271.04 L0.51 271.04 L0.87 270.68 ZM0.51 270.53 L0.15 270.68 L0.51 271.04 L0.51 271.04 L0.51 270.53 ZM0.15 270.68 L0 271.04 L0.51 271.04 L0.51 271.04 L0.15 270.68 Z"
+                              class="YAGst9"></path>
+                    </g>
+                    <g transform="translate(59.1202,-65.8114)">
+                        <path d="M0 270.19 L0 271.55 L4.08 270.87 L0 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(37.975,-68.0222)">
+                        <text id="YAGSketchS21" text-anchor="middle" x="8" y="269.21" class="YAGst8">S2</text>
+                    </g>
+                    <g transform="translate(340.191,180.11) rotate(90)">
+                        <path d="M0 271.55 L27.21 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(345.634,177.842) rotate(90)">
+                        <path d="M0 271.55 L29.48 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(68.6446,476.602) rotate(180)">
+                        <path d="M0 271.55 L4.08 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(78.169,-66.4917)">
+                        <path d="M0 271.55 L21.2 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(68.6446,-66.4917)">
+                        <path d="M0 271.55 L5.44 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(68.1343,-65.9815)">
+                        <path d="M0 271.04 L0.15 271.4 L0.51 271.04 L0.51 271.04 L0 271.04 ZM0.15 271.4 L0.51 271.55 L0.51 271.04 L0.51 271.04 L0.15 271.4 ZM0.51 271.55 L0.87 271.4 L0.51 271.04 L0.51 271.04 L0.51 271.55 ZM0.87 271.4 L1.02 271.04 L0.51 271.04 L0.51 271.04 L0.87 271.4 ZM1.02 271.04 L0.87 270.68 L0.51 271.04 L0.51 271.04 L1.02 271.04 ZM0.87 270.68 L0.51 270.53 L0.51 271.04 L0.51 271.04 L0.87 270.68 ZM0.51 270.53 L0.15 270.68 L0.51 271.04 L0.51 271.04 L0.51 270.53 ZM0.15 270.68 L0 271.04 L0.51 271.04 L0.51 271.04 L0.15 270.68 Z"
+                              class="YAGst9"></path>
+                    </g>
+                    <g transform="translate(74.0871,-65.8114)">
+                        <path d="M4.08 270.19 L4.08 271.55 L0 270.87 L4.08 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(82.3062,-68.0222)">
+                        <text id="YAGSketchS22" text-anchor="middle" x="8" y="269.21" class="YAGst8">S2</text>
+                    </g>
+                    <g transform="translate(482.102,194.624) rotate(90)">
+                        <path d="M0 271.55 L64.66 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(345.634,177.842) rotate(90)">
+                        <path d="M0 271.55 L81.45 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(206.474,528.566) rotate(180)">
+                        <path d="M0 271.55 L128.3 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(206.474,-13.8467)">
+                        <path d="M0 270.19 L0 271.55 L4.08 270.87 L0 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(74.0871,-13.8467)">
+                        <path d="M4.08 270.19 L4.08 271.55 L0 270.87 L4.08 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(138.069,-16.0567)">
+                        <text id="YAGSketchL" text-anchor="middle" x="4" y="269.21" class="YAGst8">L</text>
+                    </g>
+                    <g transform="translate(487.545,209.398) rotate(90)">
+                        <path d="M0 271.55 L27.21 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(482.102,194.624) rotate(90)">
+                        <path d="M0 271.55 L41.99 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(215.998,-37.2042)">
+                        <path d="M0 271.55 L4.08 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(206.474,505.889) rotate(180)">
+                        <path d="M0 271.55 L19.14 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(215.998,505.889) rotate(180)">
+                        <path d="M0 271.55 L5.44 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(216.508,505.379) rotate(180)">
+                        <path d="M0 271.04 L0.15 271.4 L0.51 271.04 L0.51 271.04 L0 271.04 ZM0.15 271.4 L0.51 271.55 L0.51 271.04 L0.51 271.04 L0.15 271.4 ZM0.51 271.55 L0.87 271.4 L0.51 271.04 L0.51 271.04 L0.51 271.55 ZM0.87 271.4 L1.02 271.04 L0.51 271.04 L0.51 271.04 L0.87 271.4 ZM1.02 271.04 L0.87 270.68 L0.51 271.04 L0.51 271.04 L1.02 271.04 ZM0.87 270.68 L0.51 270.53 L0.51 271.04 L0.51 271.04 L0.87 270.68 ZM0.51 270.53 L0.15 270.68 L0.51 271.04 L0.51 271.04 L0.51 270.53 ZM0.15 270.68 L0 271.04 L0.51 271.04 L0.51 271.04 L0.15 270.68 Z"
+                              class="YAGst9"></path>
+                    </g>
+                    <g transform="translate(206.474,-36.5238)">
+                        <path d="M0 270.19 L0 271.55 L4.08 270.87 L0 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(186.361,-38.7338)">
+                        <text id="YAGSketchS1" text-anchor="middle" x="8" y="269.21" class="YAGst8">S1</text>
+                    </g>
+                    <g transform="translate(487.545,209.398) rotate(90)">
+                        <path d="M0 271.55 L27.21 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(492.987,206.794) rotate(90)">
+                        <path d="M0 271.55 L29.82 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(215.998,505.889) rotate(180)">
+                        <path d="M0 271.55 L4.08 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(225.523,-37.2042)">
+                        <path d="M0 271.55 L29.18 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(215.998,-37.2042)">
+                        <path d="M0 271.55 L5.44 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(215.488,-36.6939)">
+                        <path d="M0 271.04 L0.15 271.4 L0.51 271.04 L0.51 271.04 L0 271.04 ZM0.15 271.4 L0.51 271.55 L0.51 271.04 L0.51 271.04 L0.15 271.4 ZM0.51 271.55 L0.87 271.4 L0.51 271.04 L0.51 271.04 L0.51 271.55 ZM0.87 271.4 L1.02 271.04 L0.51 271.04 L0.51 271.04 L0.87 271.4 ZM1.02 271.04 L0.87 270.68 L0.51 271.04 L0.51 271.04 L1.02 271.04 ZM0.87 270.68 L0.51 270.53 L0.51 271.04 L0.51 271.04 L0.87 270.68 ZM0.51 270.53 L0.15 270.68 L0.51 271.04 L0.51 271.04 L0.51 270.53 ZM0.15 270.68 L0 271.04 L0.51 271.04 L0.51 271.04 L0.15 270.68 Z"
+                              class="YAGst9"></path>
+                    </g>
+                    <g transform="translate(221.441,-36.5238)">
+                        <path d="M4.08 270.19 L4.08 271.55 L0 270.87 L4.08 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(225.144,-38.7338)">
+                        <text id="YAGSketchMIN" text-anchor="middle" x="18" y="269.21" class="YAGst8">δmin</text>
+                    </g>
+                    <g transform="translate(218.266,-217.068)">
+                        <path d="M0 271.55 L27.21 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(218.266,-79.1909)">
+                        <path d="M0 271.55 L27.21 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(514.758,58.5605) rotate(90)">
+                        <path d="M0 271.55 L129.71 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(242.531,-212.986)">
+                        <path d="M0 271.55 L1.36 271.55 L0.68 267.46 L0 271.55 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(242.531,-79.1909)">
+                        <path d="M0 267.46 L1.36 267.46 L0.68 271.55 L0 267.46 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(-29.9208,136.173) rotate(-90)">
+                        <text id="YAGSketchD1" text-anchor="middle" x="14" y="269.22" class="YAGst10">∅D1</text>
+                    </g>
+                    <g transform="translate(220.08,-167.005)">
+                        <path d="M0 271.55 L4.08 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(209.34,376.089) rotate(180)">
+                        <path d="M0 271.55 L14.39 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(215.998,376.089) rotate(180)">
+                        <path d="M0 271.55 L2.58 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(215.998,-166.324)">
+                        <path d="M4.08 270.19 L4.08 271.55 L0 270.87 L4.08 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(209.34,-166.324)">
+                        <path d="M0 270.19 L0 271.55 L4.08 270.87 L0 270.19 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(195.853,-168.534)">
+                        <text text-anchor="middle" x="6" y="269.21" class="YAGst8">3</text>
+                    </g>
+                    <g transform="translate(424.192,117.975) rotate(90)">
+                        <path d="M0 271.55 L4.08 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(-118.901,106.183) rotate(-90)">
+                        <path d="M0 271.55 L15.48 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(-118.901,113.893) rotate(-90)">
+                        <path d="M0 271.55 L3.63 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(151.965,-153.572)">
+                        <path d="M0 271.55 L1.36 271.55 L0.68 267.46 L0 271.55 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(151.965,-161.282)">
+                        <path d="M0 267.46 L1.36 267.46 L0.68 271.55 L0 267.46 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(-120.431,100.652) rotate(-90)">
+                        <text id="YAGSketchS-1" text-anchor="middle" x="4" y="269.21" class="YAGst8">S</text>
+                    </g>
+                    <g transform="translate(388.219,91.2156) rotate(90)">
+                        <path d="M0 271.55 L4.08 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(-154.874,79.4235) rotate(-90)">
+                        <path d="M0 271.55 L15.48 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(-154.874,87.1338) rotate(-90)">
+                        <path d="M0 271.55 L3.63 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(115.992,-180.331)">
+                        <path d="M0 271.55 L1.36 271.55 L0.68 267.46 L0 271.55 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(115.992,-188.041)">
+                        <path d="M0 267.46 L1.36 267.46 L0.68 271.55 L0 267.46 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(-156.404,73.8934) rotate(-90)">
+                        <text id="YAGSketchS-2" text-anchor="middle" x="4" y="269.21" class="YAGst8">S</text>
+                    </g>
+                    <g transform="translate(66.3769,340.539) rotate(180)">
+                        <path d="M0 271.55 L36.68 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(66.3769,449.389) rotate(180)">
+                        <path d="M0 271.55 L36.68 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(303.512,73.0739) rotate(90)">
+                        <path d="M0 271.55 L100.69 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(31.2845,-198.473)">
+                        <path d="M0 271.55 L1.36 271.55 L0.68 267.46 L0 271.55 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(31.2845,-93.7043)">
+                        <path d="M0 267.46 L1.36 267.46 L0.68 271.55 L0 267.46 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(-241.167,136.173) rotate(-90)">
+                        <text id="YAGSketchD2" text-anchor="middle" x="14" y="269.22" class="YAGst10">∅D2</text>
+                    </g>
+                    <g transform="translate(60.9343,355.052) rotate(180)">
+                        <path d="M0 271.55 L12.86 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(60.9343,434.876) rotate(180)">
+                        <path d="M0 271.55 L12.86 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(321.893,87.5873) rotate(90)">
+                        <path d="M0 271.55 L71.66 271.55" class="YAGst5"></path>
+                    </g>
+                    <g transform="translate(49.6661,-183.959)">
+                        <path d="M0 271.55 L1.36 271.55 L0.68 267.46 L0 271.55 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(49.6661,-108.218)">
+                        <path d="M0 267.46 L1.36 267.46 L0.68 271.55 L0 267.46 Z" class="YAGst4"></path>
+                    </g>
+                    <g transform="translate(-222.785,136.173) rotate(-90)">
+                        <text id="YAGSketchD0" text-anchor="middle" x="14" y="269.22" class="YAGst10">∅Do</text>
+                    </g>
+                    <g transform="translate(40.8601,-248.609)">
+                        <text x="0" y="270.45" class="YAGst12">吊索方向</text>
+                    </g>
+                    <g transform="translate(73.5951,-232.609) rotate(1.50116)">
+                        <text x="-0" y="270.5" class="YAGst8">≤15°</text>
+                    </g>
+                    <g transform="translate(606.829,123.417) rotate(90)">
+                        <path d="M0 271.55 L75.74 271.55" class="YAGst3"></path>
+                    </g>
+                    <g transform="translate(335.282,394.964) rotate(180)">
+                        <path d="M0 271.55 L75.74 271.55" class="YAGst3"></path>
+                    </g>
+                </g>
+            </svg>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="12" style="padding:20px;">
+            注：<br>
+            <ol>
+                <li>
+                    吊耳强度按 Q235A 校核；δ<sub>min</sub>是当筒体材料为 Q245R
+                    时，所需筒体的最小厚度；当需要增加筒体壁厚时，吊耳垫板边缘到增厚段端部的距离不得小于2.5√(R<sub>m</sub>δ<sub>n</sub>)，R<sub>m</sub>为增厚段筒体的平均半径，δ<sub>n</sub>为增厚段筒体的名义厚度。
+                </li>
+                <li>
+                    吊耳应设置在设备质心1.5m以上，对称设置两个。
+                </li>
+                <li>
+                    吊耳与壳体的焊缝，应按 NB/T 47013-2015 进行 MT 或 PT 检测，I 级合格。
+                </li>
+                <li>
+                    重量按碳钢 ρ=7850kg/m<sup>3</sup> 计算。
+                </li>
+            </ol>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<script type="text/javascript" charset="utf-8" src="/static/west/cal/y/a/g/YAG.js"></script>

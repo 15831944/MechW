@@ -1,0 +1,59 @@
+<table width="100%" border="1px" cellpadding="0" cellspacing="0"
+       style="table-layout:fixed;border-collapse:collapse;border-color:black;margin-top:15px;margin-bottom:15px;">
+    <tbody id="ZACATBody">
+    <tr>
+        <td colspan="5" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+        <td id="ZACASketch" colspan="7" rowspan="2" style="width:100%;vertical-align: bottom;"></td>
+    </tr>
+    <tr id="ZACASelectorRow">
+        <td colspan="3" align="left" valign="middle">&ensp;查询方式</td>
+        <td colspan="2">
+            <select id="ZACASelector" title="" class="calculateSheetSelect">
+                <option value="ZACANone"></option>
+                <option value="ZACASearch">按名称搜索</option>
+                <option value="ZACABrowse">分类浏览</option>
+            </select>
+        </td>
+    </tr>
+    <tr id="ZACAToxicityTr" style="display:none;">
+        <td colspan="3">&ensp;毒性危害程度</td>
+        <td colspan="2">
+            <select id="ZACAToxicity" title="" class="calculateSheetSelect">
+                <option value="ZACANone"></option>
+                <option value="ZACAAll">全部</option>
+                <option value="ZACAExtreme">极度危害</option>
+                <option value="ZACAHighly">高度危害</option>
+                <option value="ZACAModerate">中度危害</option>
+            </select>
+        </td>
+    </tr>
+    <tr id="ZACAExplosionTr" style="display:none;">
+        <td colspan="3">&ensp;爆炸危险程度</td>
+        <td colspan="2">
+            <select id="ZACAExplosion" class="calculateSheetSelect" title="">
+                <option value="ZACANone"></option>
+                <option value="ZACAAll">全部</option>
+                <option value="ZACAExplosive">易爆</option>
+            </select>
+        </td>
+    </tr>
+    <tr id="ZACASearch" style="display:none;">
+        <td colspan="3">&ensp;输入要搜索的介质名称</td>
+        <td colspan="2" style="color:red;position:relative;border-color: black;">
+            <input id="ZACASearchContent" type="text" class="calculateSheetInput" title=""/>
+            <span id="ZACASearchButton" class="fa fa-search"
+                  style="position: absolute;top: 0;right: 0;z-index: 99;cursor:pointer;"></span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="12" align="center" valign="middle" class="calculateSheetResult">查询结果</td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center" valign="middle">介质名称</td>
+        <td colspan="2" align="center" valign="middle">毒性危害</td>
+        <td colspan="2" align="center" valign="middle">爆炸危险</td>
+        <td colspan="5" align="center" valign="middle">HG 20660-2000 来源</td>
+    </tr>
+    </tbody>
+</table>
+<script type="text/javascript" charset="utf-8" src="/static/west/cal/z/a/c/a/ZACA.js"></script>

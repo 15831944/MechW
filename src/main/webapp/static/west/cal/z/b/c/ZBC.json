@@ -1,0 +1,26 @@
+{
+  "rows": [
+    {
+      "name": "宽度 a, mm",
+      "group": "结构尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "高度 b, mm",
+      "group": "结构尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+[
+  {
+    "id": "ZAD-1",
+    "text": "ASME锅炉及压力容器规范",
+    "children": [
+      {
+        "id": "ZAD-11",
+        "text": "ASME BPVC-2017(英文版)"
+      },
+      {
+        "id": "ZAD-12",
+        "text": "II-A-2017(英文版)",
+        "state": "closed",
+        "children": [
+          {
+            "id": "ZAD-121",
+            "text": "通用规定"
+          },
+          {
+            "id": "ZAD-122",
+            "text": "结构钢"
+          },
+          {
+            "id": "ZAD-123",
+            "text": "板材",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1231",
+                "text": "通用要求"
+              },
+              {
+                "id": "ZAD-1232",
+                "text": "碳钢及低合金钢",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-12321",
+                    "text": "通用要求"
+                  },
+                  {
+                    "id": "ZAD-12322",
+                    "text": "碳素钢"
+                  },
+                  {
+                    "id": "ZAD-12323",
+                    "text": "低合金钢",
+                    "state": "closed",
+                    "children": [
+                      {
+                        "id": "ZAD-123231",
+                        "text": "镍合金"
+                      },
+                      {
+                        "id": "ZAD-123232",
+                        "text": "碳锰硅合金"
+                      },
+                      {
+                        "id": "ZAD-123233",
+                        "text": "其他合金"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ZAD-12324",
+                    "text": "其它"
+                  }
+                ]
+              },
+              {
+                "id": "ZAD-1233",
+                "text": "高合金钢"
+              },
+              {
+                "id": "ZAD-1234",
+                "text": "复合板"
+              },
+              {
+                "id": "ZAD-1235",
+                "text": "检验试验"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-124",
+            "text": "管材",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1241",
+                "text": "Pipe",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-12411",
+                    "text": "通用要求"
+                  },
+                  {
+                    "id": "ZAD-12412",
+                    "text": "碳钢及低合金钢"
+                  },
+                  {
+                    "id": "ZAD-12413",
+                    "text": "高合金钢"
+                  }
+                ]
+              },
+              {
+                "id": "ZAD-1242",
+                "text": "Tube",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-12421",
+                    "text": "通用要求"
+                  },
+                  {
+                    "id": "ZAD-12422",
+                    "text": "给水加热器用"
+                  },
+                  {
+                    "id": "ZAD-12423",
+                    "text": "其他用途"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ZAD-125",
+            "text": "锻件",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1251",
+                "text": "通用要求"
+              },
+              {
+                "id": "ZAD-1252",
+                "text": "碳钢及低合金钢"
+              },
+              {
+                "id": "ZAD-1253",
+                "text": "高合金钢"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-126",
+            "text": "铸件",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1261",
+                "text": "铸钢",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-12611",
+                    "text": "通用要求"
+                  },
+                  {
+                    "id": "ZAD-12612",
+                    "text": "专用要求"
+                  }
+                ]
+              },
+              {
+                "id": "ZAD-1262",
+                "text": "铸铁",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-12621",
+                    "text": "通用要求"
+                  },
+                  {
+                    "id": "ZAD-12622",
+                    "text": "球墨铸铁"
+                  },
+                  {
+                    "id": "ZAD-12623",
+                    "text": "其他要求"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ZAD-127",
+            "text": "棒材及型材",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1271",
+                "text": "碳素钢及低合金钢"
+              },
+              {
+                "id": "ZAD-1272",
+                "text": "高合金钢"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-128",
+            "text": "丝材"
+          },
+          {
+            "id": "ZAD-129",
+            "text": "紧固件",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1291",
+                "text": "通用要求"
+              },
+              {
+                "id": "ZAD-1292",
+                "text": "材料"
+              },
+              {
+                "id": "ZAD-1293",
+                "text": "产品"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-1210",
+            "text": "管道元件",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-12101",
+                "text": "管配件"
+              },
+              {
+                "id": "ZAD-12102",
+                "text": "管部件"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-1211",
+            "text": "试验"
+          }
+        ]
+      },
+      {
+        "id": "ZAD-13",
+        "text": "II-B-2017(英文版)",
+        "state": "closed",
+        "children": [
+          {
+            "id": "ZAD-131",
+            "text": "铝及铝合金",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1311",
+                "text": "通用要求"
+              },
+              {
+                "id": "ZAD-1312",
+                "text": "板材"
+              },
+              {
+                "id": "ZAD-1313",
+                "text": "管材"
+              },
+              {
+                "id": "ZAD-1314",
+                "text": "锻件"
+              },
+              {
+                "id": "ZAD-1315",
+                "text": "铸件"
+              },
+              {
+                "id": "ZAD-1316",
+                "text": "试验"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-132",
+            "text": "镍及镍合金",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1321",
+                "text": "板材"
+              },
+              {
+                "id": "ZAD-1322",
+                "text": "管材",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-13221",
+                    "text": "Pipe&Tube"
+                  },
+                  {
+                    "id": "ZAD-13222",
+                    "text": "Pipe"
+                  },
+                  {
+                    "id": "ZAD-13223",
+                    "text": "Tube"
+                  }
+                ]
+              },
+              {
+                "id": "ZAD-1323",
+                "text": "锻件"
+              },
+              {
+                "id": "ZAD-1324",
+                "text": "铸件"
+              },
+              {
+                "id": "ZAD-1325",
+                "text": "棒材、杆材及型材"
+              },
+              {
+                "id": "ZAD-1326",
+                "text": "管配件"
+              },
+              {
+                "id": "ZAD-1327",
+                "text": "其它"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-133",
+            "text": "铜及铜合金",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1331",
+                "text": "总则",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-13311",
+                    "text": "通用要求"
+                  },
+                  {
+                    "id": "ZAD-13312",
+                    "text": "铜"
+                  },
+                  {
+                    "id": "ZAD-13313",
+                    "text": "铝青铜"
+                  },
+                  {
+                    "id": "ZAD-13314",
+                    "text": "铜硅合金"
+                  }
+                ]
+              },
+              {
+                "id": "ZAD-1332",
+                "text": "板材"
+              },
+              {
+                "id": "ZAD-1333",
+                "text": "管材",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-13331",
+                    "text": "通用要求"
+                  },
+                  {
+                    "id": "ZAD-13332",
+                    "text": "Pipe"
+                  },
+                  {
+                    "id": "ZAD-13333",
+                    "text": "Tube",
+                    "state": "closed",
+                    "children": [
+                      {
+                        "id": "ZAD-133331",
+                        "text": "无缝"
+                      },
+                      {
+                        "id": "ZAD-133332",
+                        "text": "焊接"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ZAD-1334",
+                "text": "锻件"
+              },
+              {
+                "id": "ZAD-1335",
+                "text": "铸件"
+              },
+              {
+                "id": "ZAD-1336",
+                "text": "试验"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-134",
+            "text": "钛及钛合金",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1341",
+                "text": "板材"
+              },
+              {
+                "id": "ZAD-1342",
+                "text": "管材",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-13421",
+                    "text": "Pipe"
+                  },
+                  {
+                    "id": "ZAD-13422",
+                    "text": "Tube"
+                  }
+                ]
+              },
+              {
+                "id": "ZAD-1343",
+                "text": "锻件"
+              },
+              {
+                "id": "ZAD-1344",
+                "text": "铸件"
+              },
+              {
+                "id": "ZAD-1345",
+                "text": "其他"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-135",
+            "text": "锆及锆合金",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1351",
+                "text": "板材"
+              },
+              {
+                "id": "ZAD-1352",
+                "text": "管材"
+              },
+              {
+                "id": "ZAD-1353",
+                "text": "锻件"
+              },
+              {
+                "id": "ZAD-1354",
+                "text": "其他"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-136",
+            "text": "紧固件"
+          }
+        ]
+      },
+      {
+        "id": "ZAD-14",
+        "text": "II-C-2017(英文版)",
+        "state": "closed",
+        "children": [
+          {
+            "id": "ZAD-141",
+            "text": "通用要求"
+          },
+          {
+            "id": "ZAD-142",
+            "text": "铁及铁合金",
+            "state": "closed",
+            "children": [
+              {
+                "id": "ZAD-1421",
+                "text": "碳钢及低合金钢",
+                "state": "closed",
+                "children": [
+                  {
+                    "id": "ZAD-14211",
+                    "text": "焊条"
+                  },
+                  {
+                    "id": "ZAD-14212",
+                    "text": "焊丝和焊剂"
+                  }
+                ]
+              },
+              {
+                "id": "ZAD-1422",
+                "text": "高合金钢"
+              },
+              {
+                "id": "ZAD-1423",
+                "text": "铸铁"
+              }
+            ]
+          },
+          {
+            "id": "ZAD-143",
+            "text": "铝及铝合金"
+          },
+          {
+            "id": "ZAD-144",
+            "text": "镍及镍合金"
+          },
+          {
+            "id": "ZAD-145",
+            "text": "铜及铜合金"
+          },
+          {
+            "id": "ZAD-146",
+            "text": "钛及钛合金"
+          },
+          {
+            "id": "ZAD-147",
+            "text": "锆及锆合金"
+          },
+          {
+            "id": "ZAD-148",
+            "text": "钎焊及钎接焊"
+          }
+        ]
+      },
+      {
+        "id": "ZAD-15",
+        "text": "ASME BPVC-2015(中文版)"
+      }
+    ]
+  }
+]

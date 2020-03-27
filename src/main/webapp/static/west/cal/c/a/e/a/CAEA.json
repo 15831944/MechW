@@ -1,0 +1,306 @@
+{
+  "rows": [
+    {
+      "name": "设计温度，℃",
+      "group": "设计条件",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "压力试验类型",
+      "group": "设计条件",
+      "value": "液压试验",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "液压试验",
+              "text": "液压试验"
+            },
+            {
+              "value": "气压试验",
+              "text": "气压试验"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "筒体",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "筒体",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "筒体",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "筒体",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "设计压力，MPa",
+      "group": "筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 35,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "介质静压力，MPa",
+      "group": "筒体",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 35,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "内直径 D<sub>si</sub>，mm",
+      "group": "筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度 δ<sub>sn</sub>，mm",
+      "group": "筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "焊接接头系数 Φ<sub>s</sub>，mm",
+      "group": "筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 1.0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量，mm",
+      "group": "筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "壁温，℃",
+      "group": "筒体",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "盘管",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "盘管",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "盘管",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "盘管",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "设计压力，MPa",
+      "group": "盘管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 35,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "介质静压力，MPa",
+      "group": "盘管",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 35,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "外直径 do，mm",
+      "group": "盘管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "螺旋节距 ts，mm",
+      "group": "盘管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "名义厚度 δ<sub>jn</sub>，mm",
+      "group": "盘管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "焊接接头系数 Φ<sub>j</sub>，mm",
+      "group": "盘管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 1.0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量，mm",
+      "group": "盘管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "壁温，℃",
+      "group": "盘管",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

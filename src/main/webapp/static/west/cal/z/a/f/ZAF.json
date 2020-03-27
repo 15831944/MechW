@@ -1,0 +1,192 @@
+[
+  {
+    "id": "ZAF-1",
+    "text": "紧固件规范",
+    "children": [
+      {
+        "id": "ZAF-11",
+        "text": "术语"
+      },
+      {
+        "id": "ZAF-12",
+        "text": "总则"
+      },
+      {
+        "id": "ZAF-13",
+        "text": "机械性能"
+      },
+      {
+        "id": "ZAF-14",
+        "text": "螺栓",
+        "state": "closed",
+        "children": [
+          {
+            "id": "ZAF-141",
+            "text": "六角头"
+          },
+          {
+            "id": "ZAF-142",
+            "text": "沉头"
+          },
+          {
+            "id": "ZAF-143",
+            "text": "方头"
+          },
+          {
+            "id": "ZAF-144",
+            "text": "半圆头"
+          },
+          {
+            "id": "ZAF-145",
+            "text": "六角法兰面"
+          },
+          {
+            "id": "ZAF-146",
+            "text": "活节螺栓"
+          },
+          {
+            "id": "ZAF-147",
+            "text": "地脚螺栓"
+          },
+          {
+            "id": "ZAF-148",
+            "text": "其它"
+          }
+        ]
+      },
+      {
+        "id": "ZAF-15",
+        "text": "螺柱"
+      },
+      {
+        "id": "ZAF-16",
+        "text": "螺母",
+        "state": "closed",
+        "children": [
+          {
+            "id": "ZAF-161",
+            "text": "六角"
+          },
+          {
+            "id": "ZAF-162",
+            "text": "盖形"
+          },
+          {
+            "id": "ZAF-163",
+            "text": "锁紧"
+          },
+          {
+            "id": "ZAF-164",
+            "text": "蝶形"
+          },
+          {
+            "id": "ZAF-165",
+            "text": "其它"
+          }
+        ]
+      },
+      {
+        "id": "ZAF-17",
+        "text": "螺钉"
+      },
+      {
+        "id": "ZAF-18",
+        "text": "螺塞"
+      },
+      {
+        "id": "ZAF-19",
+        "text": "螺纹",
+        "state": "closed",
+        "children": [
+          {
+            "id": "ZAF-191",
+            "text": "术语"
+          },
+          {
+            "id": "ZAF-192",
+            "text": "普通螺纹(M)"
+          },
+          {
+            "id": "ZAF-193",
+            "text": "梯形螺纹(Tr)"
+          },
+          {
+            "id": "ZAF-194",
+            "text": "统一螺纹(UNC、UNRC、UNF、UNRF、UNEF、UNREF、UN、UNR)"
+          },
+          {
+            "id": "ZAF-195",
+            "text": "密封管螺纹(Rp、R1、Rc、R2、NPT、NPSC、NPTF、PTF-SAE SHORT、NPSF、NPSI)"
+          },
+          {
+            "id": "ZAF-196",
+            "text": "非密封管螺纹(G、Pg)"
+          },
+          {
+            "id": "ZAF-197",
+            "text": "锯齿形螺纹(B)"
+          },
+          {
+            "id": "ZAF-198",
+            "text": "小螺纹螺纹(S)"
+          },
+          {
+            "id": "ZAF-199",
+            "text": "其它螺纹(PZ、PG、Mc、Mp、RLM)"
+          }
+        ]
+      },
+      {
+        "id": "ZAF-110",
+        "text": "垫圈"
+      },
+      {
+        "id": "ZAF-111",
+        "text": "孔"
+      },
+      {
+        "id": "ZAF-112",
+        "text": "销"
+      },
+      {
+        "id": "ZAF-113",
+        "text": "铆钉"
+      },
+      {
+        "id": "ZAF-114",
+        "text": "键"
+      },
+      {
+        "id": "ZAF-115",
+        "text": "卡箍"
+      },
+      {
+        "id": "ZAF-116",
+        "text": "钢结构用"
+      },
+      {
+        "id": "ZAF-117",
+        "text": "化工大直径"
+      },
+      {
+        "id": "ZAF-118",
+        "text": "其他要求",
+        "state": "closed",
+        "children": [
+          {
+            "id": "ZAF-1181",
+            "text": "公差"
+          },
+          {
+            "id": "ZAF-1182",
+            "text": "表面处理"
+          },
+          {
+            "id": "ZAF-1183",
+            "text": "表面缺陷"
+          }
+        ]
+      }
+    ]
+  }
+]

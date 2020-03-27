@@ -1,0 +1,353 @@
+{
+  "rows": [
+    {
+      "name": "设计压力，MPa",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "max": 0.1,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "设计温度，℃",
+      "group": "设计数据",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "介质静压力，MPa",
+      "group": "设计数据",
+      "value": "0.0",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "试验类型",
+      "group": "设计数据",
+      "value": "液压试验",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "液压试验",
+              "text": "液压试验"
+            },
+            {
+              "value": "气压试验",
+              "text": "气压试验"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料",
+      "group": "垫片",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "合成橡胶板(HS<75)",
+              "text": "合成橡胶板(HS<75)"
+            },
+            {
+              "value": "合成橡胶板(HS≥75)",
+              "text": "合成橡胶板(HS≥75)"
+            },
+            {
+              "value": "石棉(橡胶)板,δ=3",
+              "text": "石棉(橡胶)板,δ=3"
+            },
+            {
+              "value": "石棉(橡胶)板,δ=1.5",
+              "text": "石棉(橡胶)板,δ=1.5"
+            },
+            {
+              "value": "棉纤维橡胶板,δ≥1.5",
+              "text": "棉纤维橡胶板,δ≥1.5"
+            },
+            {
+              "value": "植物纤维板,δ≥1.5",
+              "text": "植物纤维板,δ≥1.5"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "螺栓外侧宽度 Dg，mm",
+      "group": "垫片",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "螺纹规格",
+      "group": "螺栓",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "M12",
+              "text": "M12"
+            },
+            {
+              "value": "M16",
+              "text": "M16"
+            },
+            {
+              "value": "M20",
+              "text": "M20"
+            },
+            {
+              "value": "M22",
+              "text": "M22"
+            },
+            {
+              "value": "M24",
+              "text": "M24"
+            },
+            {
+              "value": "M27",
+              "text": "M27"
+            },
+            {
+              "value": "M30",
+              "text": "M30"
+            },
+            {
+              "value": "M36",
+              "text": "M36"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "无螺纹部分最小直径，mm",
+      "group": "螺栓",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "法兰短边螺栓中心距 Db，mm",
+      "group": "螺栓",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "相邻螺栓间距 Lf，mm",
+      "group": "螺栓",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "材料类别",
+      "group": "法兰",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料类型",
+      "group": "法兰",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料标准号",
+      "group": "法兰",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "name": "材料牌号/名称",
+      "group": "法兰",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true,
+          "panelMaxHeight": 150
+        }
+      }
+    },
+    {
+      "name": "名义厚度 δn，mm",
+      "group": "法兰",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "腐蚀裕量，mm",
+      "group": "法兰",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "螺栓至焊缝间距 La，mm",
+      "group": "法兰",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "螺栓至法兰外壁间距 Le，mm",
+      "group": "法兰",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "螺栓至法兰内壁间距 Ld，mm",
+      "group": "法兰",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "name": "短边截面内侧距离 Di，mm",
+      "group": "法兰",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

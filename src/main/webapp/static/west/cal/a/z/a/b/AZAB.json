@@ -1,0 +1,26 @@
+{
+  "rows": [
+    {
+      "name": "热量输入, kJ/h",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 1
+        }
+      }
+    },
+    {
+      "name": "泄放压力下介质的汽化潜热, kJ/kg",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

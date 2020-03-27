@@ -1,0 +1,15 @@
+{
+  "rows": [
+    {
+      "name": "直径 d, mm",
+      "group": "结构尺寸",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

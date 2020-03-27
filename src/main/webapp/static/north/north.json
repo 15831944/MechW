@@ -1,0 +1,2019 @@
+{
+  "selected": 1,
+  "tabs": [
+    {
+      "name": "A",
+      "title": "压力容器",
+      "groups": [
+        {
+          "name": "AA",
+          "title": "内压计算",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "type": "splitbutton",
+                  "name": "AAA",
+                  "text": "圆筒",
+                  "iconCls": "icon-AAA",
+                  "menuItems": [
+                    {
+                      "name": "AAAA",
+                      "text": "单层",
+                      "iconCls": "icon-AAAA"
+                    },
+                    {
+                      "name": "AAAB",
+                      "text": "多层",
+                      "iconCls": "icon-AAAB"
+                    }
+                  ]
+                },
+                {
+                  "name": "AAB",
+                  "text": "椭圆封头",
+                  "iconCls": "icon-AAB"
+                },
+                {
+                  "name": "AAC",
+                  "text": "半球封头",
+                  "iconCls": "icon-AAC"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "AAD",
+                  "text": "碟形封头",
+                  "iconCls": "icon-AAD"
+                },
+                {
+                  "name": "AAE",
+                  "text": "球冠封头",
+                  "iconCls": "icon-AAE"
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "AAF",
+                  "text": "锥形封头",
+                  "iconCls": "icon-AAF",
+                  "menuItems": [
+                    {
+                      "name": "AAFB",
+                      "text": "无折边锥形封头大端(11°≤α≤30°)",
+                      "iconCls": "icon-AAFB"
+                    },
+                    {
+                      "name": "AAFC",
+                      "text": "有折边锥形封头大端(10°≤α≤60°)",
+                      "iconCls": "icon-AAFC"
+                    },
+                    {
+                      "name": "AAFA",
+                      "text": "锥形封头中间段(α≤60°)",
+                      "iconCls": "icon-AAFA"
+                    },
+                    {
+                      "name": "AAFD",
+                      "text": "无折边锥形封头小端(5°≤α≤45°)",
+                      "iconCls": "icon-AAFD"
+                    },
+                    {
+                      "name": "AAFE",
+                      "text": "有折边锥形封头小端(5°≤α≤60°)",
+                      "iconCls": "icon-AAFE"
+                    },
+                    {
+                      "name": "AAFF",
+                      "text": "大端无折边、小端无折边锥形封头(11°≤α≤30°)",
+                      "iconCls": "icon-AAFF"
+                    },
+                    {
+                      "name": "AAFG",
+                      "text": "大端有折边、小端无折边锥形封头(10°≤α≤45°)",
+                      "iconCls": "icon-AAFG"
+                    },
+                    {
+                      "name": "AAFH",
+                      "text": "大端有折边、小端有折边锥形封头(10°≤α≤60°)",
+                      "iconCls": "icon-AAFH"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "type": "splitbutton",
+                  "name": "AAG",
+                  "text": "大锥角封头",
+                  "iconCls": "icon-AAG",
+                  "menuItems": [
+                    {
+                      "name": "AAGA",
+                      "text": "α>70°,不带折边,无加强圈",
+                      "iconCls": "icon-AAGA"
+                    },
+                    {
+                      "name": "AAGB",
+                      "text": "α>70°,不带折边,带加强圈",
+                      "iconCls": "icon-AAGB"
+                    },
+                    {
+                      "name": "AAGC",
+                      "text": "α>70°,带折边",
+                      "iconCls": "icon-AAGC"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "AAH",
+                  "text": "Ω膨胀节",
+                  "iconCls": "icon-AAH",
+                  "menuItems": [
+                    {
+                      "name": "AAHA",
+                      "text": "与壳体搭接",
+                      "iconCls": "icon-AAHA"
+                    },
+                    {
+                      "name": "AAHB",
+                      "text": "与壳体对接",
+                      "iconCls": "icon-AAHB"
+                    }
+                  ]
+                },
+                {
+                  "name": "AAI",
+                  "text": "内压弯头",
+                  "iconCls": "icon-AAI"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "AAJ",
+                  "text": "半圆容器",
+                  "iconCls": "icon-AAJ"
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "AAK",
+                  "text": "薄壁封头",
+                  "iconCls": "icon-AAK",
+                  "menuItems": [
+                    {
+                      "name": "AAKA",
+                      "text": "椭圆封头",
+                      "iconCls": "icon-AAKA"
+                    },
+                    {
+                      "name": "AAKB",
+                      "text": "碟形封头",
+                      "iconCls": "icon-AAKB"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AB",
+          "title": "外压计算",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ABA",
+                  "text": "大锥角封头",
+                  "iconCls": "icon-ABA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AC",
+          "title": "开孔补强计算",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "type": "splitbutton",
+                  "name": "ACA",
+                  "text": "筒体开孔",
+                  "iconCls": "icon-ACA",
+                  "menuItems": [
+                    {
+                      "name": "ACAA",
+                      "text": "插入式接管",
+                      "iconCls": "icon-ACAA"
+                    },
+                    {
+                      "name": "ACAB",
+                      "text": "安放式接管",
+                      "iconCls": "icon-ACAB"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "ACB",
+                  "text": "球形封头",
+                  "iconCls": "icon-ACB",
+                  "menuItems": [
+                    {
+                      "name": "ACBA",
+                      "text": "插入式接管",
+                      "iconCls": "icon-ACBA"
+                    },
+                    {
+                      "name": "ACBB",
+                      "text": "安放式接管",
+                      "iconCls": "icon-ACBB"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "ACC",
+                  "text": "椭圆封头",
+                  "iconCls": "icon-ACC",
+                  "menuItems": [
+                    {
+                      "name": "ACCA",
+                      "text": "插入式接管",
+                      "iconCls": "icon-ACCA"
+                    },
+                    {
+                      "name": "ACCB",
+                      "text": "安放式接管",
+                      "iconCls": "icon-ACCB"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "type": "splitbutton",
+                  "name": "ACD",
+                  "text": "碟形封头",
+                  "iconCls": "icon-ACD",
+                  "menuItems": [
+                    {
+                      "name": "ACDA",
+                      "text": "插入式接管",
+                      "iconCls": "icon-ACDA"
+                    },
+                    {
+                      "name": "ACDB",
+                      "text": "安放式接管",
+                      "iconCls": "icon-ACDB"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "ACE",
+                  "text": "锥形封头",
+                  "iconCls": "icon-ACE",
+                  "menuItems": [
+                    {
+                      "name": "ACEA",
+                      "text": "锥壳段",
+                      "iconCls": "icon-ACEA"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AZ",
+          "title": "超压泄放装置",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "type": "splitbutton",
+                  "name": "AZA",
+                  "text": "泄放量",
+                  "iconCls": "icon-AZA",
+                  "menuItems": [
+                    {
+                      "name": "AZAA",
+                      "text": "气体储罐",
+                      "iconCls": "icon-AZAA"
+                    },
+                    {
+                      "name": "AZAB",
+                      "text": "蒸汽发生器",
+                      "iconCls": "icon-AZAB"
+                    },
+                    {
+                      "name": "AZAC",
+                      "text": "易爆液化气体容器",
+                      "iconCls": "icon-AZAC"
+                    },
+                    {
+                      "name": "AZAD",
+                      "text": "非易爆液化气体容器",
+                      "iconCls": "icon-AZAD"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "AZB",
+                  "text": "泄放面积",
+                  "iconCls": "icon-AZB",
+                  "menuItems": [
+                    {
+                      "name": "AZBA",
+                      "text": "气体",
+                      "iconCls": "icon-AZBA"
+                    },
+                    {
+                      "name": "AZBB",
+                      "text": "饱和蒸汽",
+                      "iconCls": "icon-AZBB"
+                    },
+                    {
+                      "name": "AZBC",
+                      "text": "黏滞性液体",
+                      "iconCls": "icon-AZBC"
+                    },
+                    {
+                      "name": "AZBD",
+                      "text": "非黏滞性液体",
+                      "iconCls": "icon-AZBD"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "AZC",
+                  "text": "泄放作用",
+                  "iconCls": "icon-AZC",
+                  "menuItems": [
+                    {
+                      "name": "AZCA",
+                      "text": "安全阀泄放噪声",
+                      "iconCls": "icon-AZCA"
+                    },
+                    {
+                      "name": "AZCB",
+                      "text": "气体安全阀泄放反力",
+                      "iconCls": "icon-AZCB"
+                    },
+                    {
+                      "name": "AZCC",
+                      "text": "液体安全阀泄放反力",
+                      "iconCls": "icon-AZCC"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "title": "常压容器",
+      "groups": [
+        {
+          "name": "BA",
+          "title": "矩形容器",
+          "tools": [
+            {
+              "type": "menubutton",
+              "name": "BAA",
+              "text": "顶板",
+              "iconCls": "icon-BAA",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "BAAA",
+                  "text": "带加强筋",
+                  "iconCls": "icon-BAAA"
+                },
+                {
+                  "name": "BAAB",
+                  "text": "不带加强筋",
+                  "iconCls": "icon-BAAB"
+                }
+              ]
+            },
+            {
+              "type": "menubutton",
+              "name": "BAB",
+              "text": "底板",
+              "iconCls": "icon-BAB",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "BABA",
+                  "text": "型钢支撑",
+                  "iconCls": "icon-BABA"
+                }
+              ]
+            },
+            {
+              "name": "BAC",
+              "text": "A 型",
+              "iconCls": "icon-BAC",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "BAD",
+              "text": "B 型",
+              "iconCls": "icon-BAD",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "BAE",
+              "text": "C 型",
+              "iconCls": "icon-BAE",
+              "iconAlign": "top",
+              "size": "large",
+              "type": "menubutton",
+              "menuItems": [
+                {
+                  "name": "BAEA",
+                  "text": "有拉杆",
+                  "iconCls": "icon-BAEA"
+                },
+                {
+                  "name": "BAEB",
+                  "text": "无拉杆",
+                  "iconCls": "icon-BAEB"
+                }
+              ]
+            },
+            {
+              "name": "BAF",
+              "text": "D 型",
+              "iconCls": "icon-BAF",
+              "iconAlign": "top",
+              "size": "large",
+              "type": "menubutton",
+              "menuItems": [
+                {
+                  "name": "BAFA",
+                  "text": "1层水平加固圈(容器高度≤2100)",
+                  "iconCls": "icon-BAFA"
+                },
+                {
+                  "name": "BAFB",
+                  "text": "2层水平加固圈(容器高度>2100～3000)",
+                  "iconCls": "icon-BAFB"
+                },
+                {
+                  "name": "BAFC",
+                  "text": "3层水平加固圈(容器高度>3000～4000)",
+                  "iconCls": "icon-BAFC"
+                },
+                {
+                  "name": "BAFD",
+                  "text": "4层水平加固圈(容器高度>4000)",
+                  "iconCls": "icon-BAFD"
+                }
+              ]
+            },
+            {
+              "name": "BAG",
+              "text": "E 型",
+              "iconCls": "icon-BAG",
+              "iconAlign": "top",
+              "size": "large",
+              "type": "menubutton",
+              "menuItems": [
+                {
+                  "name": "BAGA",
+                  "text": "一层水平加固圈、有拉杆(容器高度≤2100)",
+                  "iconCls": "icon-BAGA"
+                },
+                {
+                  "name": "BAGB",
+                  "text": "一层水平加固圈、无拉杆(容器高度≤2100)",
+                  "iconCls": "icon-BAGB"
+                },
+                {
+                  "name": "BAGC",
+                  "text": "二层水平加固圈、有拉杆(容器高度>2100～3000)",
+                  "iconCls": "icon-BAGC"
+                },
+                {
+                  "name": "BAGD",
+                  "text": "二层水平加固圈、无拉杆(容器高度>2100～3000)",
+                  "iconCls": "icon-BAGD"
+                },
+                {
+                  "name": "BAGE",
+                  "text": "三层水平加固圈、有拉杆(容器高度>3000～4000)",
+                  "iconCls": "icon-BAGE"
+                },
+                {
+                  "name": "BAGF",
+                  "text": "三层水平加固圈、无拉杆(容器高度>3000～4000)",
+                  "iconCls": "icon-BAGF"
+                },
+                {
+                  "name": "BAGG",
+                  "text": "四层水平加固圈、有拉杆(容器高度>4000)",
+                  "iconCls": "icon-BAGG"
+                },
+                {
+                  "name": "BAGH",
+                  "text": "四层水平加固圈、无拉杆(容器高度>4000)",
+                  "iconCls": "icon-BAGH"
+                }
+              ]
+            },
+            {
+              "name": "BAH",
+              "text": "F 型",
+              "iconCls": "icon-BAH",
+              "iconAlign": "top",
+              "size": "large",
+              "type": "menubutton",
+              "menuItems": [
+                {
+                  "name": "BAHA",
+                  "text": "第一层拉杆壁板及顶边加固件",
+                  "iconCls": "icon-BAHA"
+                },
+                {
+                  "name": "BAHB",
+                  "text": "第 i 层拉杆及壁板(i ≥ 2)",
+                  "iconCls": "icon-BAHB"
+                }
+              ]
+            },
+            {
+              "name": "BAI",
+              "text": "G 型",
+              "iconCls": "icon-BAI",
+              "iconAlign": "top",
+              "size": "large",
+              "type": "menubutton",
+              "menuItems": [
+                {
+                  "name": "BAIA",
+                  "text": "一层中间联杆",
+                  "iconCls": "icon-BAIA"
+                },
+                {
+                  "name": "BAIB",
+                  "text": "二层中间联杆",
+                  "iconCls": "icon-BAIB"
+                }
+              ]
+            },
+            {
+              "name": "BAJ",
+              "text": "矩形法兰",
+              "iconCls": "icon-BAJ",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        },
+        {
+          "name": "BC",
+          "title": "内压计算",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "BCA",
+                  "text": "圆柱筒体",
+                  "iconCls": "icon-BCA"
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "BCB",
+                  "text": "凸形封头",
+                  "iconCls": "icon-BCB",
+                  "menuItems": [
+                    {
+                      "name": "BCBA",
+                      "text": "椭圆封头",
+                      "iconCls": "icon-BCBA"
+                    },
+                    {
+                      "name": "BCBB",
+                      "text": "半球封头",
+                      "iconCls": "icon-BCBB"
+                    },
+                    {
+                      "name": "BCBC",
+                      "text": "碟形封头",
+                      "iconCls": "icon-BCBC"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "BCC",
+                  "text": "端部球冠",
+                  "iconCls": "icon-BCC",
+                  "menuItems": [
+                    {
+                      "name": "BCCA",
+                      "text": "连接处厚壁加强",
+                      "iconCls": "icon-BCCA"
+                    },
+                    {
+                      "name": "BCCB",
+                      "text": "连接处垫板加强",
+                      "iconCls": "icon-BCCB"
+                    },
+                    {
+                      "name": "BCCC",
+                      "text": "连接处扁钢加强",
+                      "iconCls": "icon-BCCC"
+                    },
+                    {
+                      "name": "BCCD",
+                      "text": "连接处角钢加强",
+                      "iconCls": "icon-BCCD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "type": "splitbutton",
+                  "name": "BCD",
+                  "text": "中间球冠",
+                  "iconCls": "icon-BCD",
+                  "menuItems": [
+                    {
+                      "name": "BCDA",
+                      "text": "连接处厚壁加强",
+                      "iconCls": "icon-BCDA"
+                    },
+                    {
+                      "name": "BCDB",
+                      "text": "连接处垫板加强",
+                      "iconCls": "icon-BCDB"
+                    },
+                    {
+                      "name": "BCDC",
+                      "text": "连接处扁钢加强",
+                      "iconCls": "icon-BCDC"
+                    },
+                    {
+                      "name": "BCDD",
+                      "text": "连接处角钢加强",
+                      "iconCls": "icon-BCDD"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "BCE",
+                  "text": "锥形封头",
+                  "iconCls": "icon-BCE",
+                  "menuItems": [
+                    {
+                      "name": "BCEA",
+                      "text": "中间段(α≤60°)",
+                      "iconCls": "icon-BCEA"
+                    },
+                    {
+                      "name": "BCEB",
+                      "text": "不带折边小端(α≤60°)",
+                      "iconCls": "icon-BCEB"
+                    },
+                    {
+                      "name": "BCEC",
+                      "text": "不带折边大端(α≤60°)",
+                      "iconCls": "icon-BCEC"
+                    },
+                    {
+                      "name": "BCED",
+                      "text": "大端无折边、小端无折边锥形封头(α≤60°)",
+                      "iconCls": "icon-BCED"
+                    },
+                    {
+                      "name": "BCEE",
+                      "text": "大锥角无折边锥形封头(α≥70°)",
+                      "iconCls": "icon-BCEE"
+                    },
+                    {
+                      "name": "BCEF",
+                      "text": "大锥角无折边、有加强圈锥形封头(α≥70°)",
+                      "iconCls": "icon-BCEF"
+                    },
+                    {
+                      "name": "BCEG",
+                      "text": "大锥角带折边锥形封头(α≥70°)",
+                      "iconCls": "icon-BCEG"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "BCF",
+                  "text": "圆平盖",
+                  "iconCls": "icon-BCF",
+                  "menuItems": [
+                    {
+                      "name": "BCFA",
+                      "text": "序号1：与筒体角焊连接(角钢加强)",
+                      "iconCls": "icon-BCFA"
+                    },
+                    {
+                      "name": "BCFB",
+                      "text": "序号2：螺栓连接(角钢加强)",
+                      "iconCls": "icon-BCFB"
+                    },
+                    {
+                      "name": "BCFC",
+                      "text": "序号3：与筒体角焊连接(扁钢加强)",
+                      "iconCls": "icon-BCFC"
+                    },
+                    {
+                      "name": "BCFD",
+                      "text": "序号4：与筒体角焊连接(扁钢加强)",
+                      "iconCls": "icon-BCFD"
+                    },
+                    {
+                      "name": "BCFE",
+                      "text": "序号5：与筒体角焊连接",
+                      "iconCls": "icon-BCFE"
+                    },
+                    {
+                      "name": "BCFF",
+                      "text": "序号6：与筒体角焊连接",
+                      "iconCls": "icon-BCFF"
+                    },
+                    {
+                      "name": "BCFG",
+                      "text": "序号7：与筒体对焊连接",
+                      "iconCls": "icon-BCFG"
+                    },
+                    {
+                      "name": "BCFH",
+                      "text": "序号8：与筒体对焊连接(扁钢加强)",
+                      "iconCls": "icon-BCFH"
+                    },
+                    {
+                      "name": "BCFI",
+                      "text": "序号9：与筒体角焊连接",
+                      "iconCls": "icon-BCFI"
+                    },
+                    {
+                      "name": "BCFJ",
+                      "text": "序号10：与筒体角焊连接(扁钢加强)",
+                      "iconCls": "icon-BCFJ"
+                    },
+                    {
+                      "name": "BCFK",
+                      "text": "序号11：与筒体角焊连接(扁钢加强)",
+                      "iconCls": "icon-BCFK"
+                    },
+                    {
+                      "name": "BCFL",
+                      "text": "序号12：与筒体角焊连接(扁钢加强)",
+                      "iconCls": "icon-BCFL"
+                    },
+                    {
+                      "name": "BCFM",
+                      "text": "序号13：与筒体角焊连接(扁钢加强)",
+                      "iconCls": "icon-BCFM"
+                    },
+                    {
+                      "name": "BCFN",
+                      "text": "序号14：与筒体角焊连接(扁钢加强)",
+                      "iconCls": "icon-BCFN"
+                    },
+                    {
+                      "name": "BCFO",
+                      "text": "序号15：与筒体角焊连接(扁钢加强)",
+                      "iconCls": "icon-BCFO"
+                    },
+                    {
+                      "name": "BCFP",
+                      "text": "序号16：螺栓连接(宽面垫片)",
+                      "iconCls": "icon-BCFP"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "type": "splitbutton",
+                  "name": "BCG",
+                  "text": "非圆平盖",
+                  "iconCls": "icon-BCG",
+                  "menuItems": [
+                    {
+                      "name": "BCGA",
+                      "text": "序号5：与筒体角焊连接",
+                      "iconCls": "icon-BCGA"
+                    },
+                    {
+                      "name": "BCGB",
+                      "text": "序号6：与筒体角焊连接",
+                      "iconCls": "icon-BCGB"
+                    },
+                    {
+                      "name": "BCGC",
+                      "text": "序号9：与筒体角焊连接",
+                      "iconCls": "icon-BCGC"
+                    },
+                    {
+                      "name": "BCGD",
+                      "text": "序号16：螺栓连接(宽面垫片)",
+                      "iconCls": "icon-BCGD"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "BCH",
+                  "text": "Ω膨胀节",
+                  "iconCls": "icon-BCH",
+                  "menuItems": [
+                    {
+                      "name": "BCHA",
+                      "text": "与壳体搭接",
+                      "iconCls": "icon-BCHA"
+                    },
+                    {
+                      "name": "BCHB",
+                      "text": "与壳体对接",
+                      "iconCls": "icon-BCHB"
+                    }
+                  ]
+                },
+                {
+                  "name": "BCI",
+                  "text": "内压弯头",
+                  "iconCls": "icon-BCI"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "BCJ",
+                  "text": "半圆容器",
+                  "iconCls": "icon-BCJ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BD",
+          "title": "开孔补强",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "BDA",
+                  "text": "筒体开孔",
+                  "iconCls": "icon-BDA"
+                },
+                {
+                  "name": "BDB",
+                  "text": "球形封头",
+                  "iconCls": "icon-BDB"
+                },
+                {
+                  "name": "BDC",
+                  "text": "椭圆封头",
+                  "iconCls": "icon-BDC"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "BDD",
+                  "text": "碟形封头",
+                  "iconCls": "icon-BDD"
+                },
+                {
+                  "name": "BDE",
+                  "text": "锥形封头",
+                  "iconCls": "icon-BDE"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "title": "夹套",
+      "groups": [
+        {
+          "name": "CA",
+          "title": "强度计算",
+          "tools": [
+            {
+              "type": "menubutton",
+              "name": "CAA",
+              "text": "蜂窝短管",
+              "iconCls": "icon-CAA",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "CAAA",
+                  "text": "圆柱壳筒体",
+                  "iconCls": "icon-CAAA"
+                }
+              ]
+            },
+            {
+              "type": "menubutton",
+              "name": "CAB",
+              "text": "蜂窝锥体",
+              "iconCls": "icon-CAB",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "CABA",
+                  "text": "圆柱壳筒体",
+                  "iconCls": "icon-CABA"
+                }
+              ]
+            },
+            {
+              "type": "menubutton",
+              "name": "CAC",
+              "text": "螺旋型钢",
+              "iconCls": "icon-CAC",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "CACA",
+                  "text": "分隔式",
+                  "iconCls": "icon-CACA"
+                },
+                {
+                  "name": "CACB",
+                  "text": "互搭式",
+                  "iconCls": "icon-CACB"
+                }
+              ]
+            },
+            {
+              "type": "menubutton",
+              "name": "CAD",
+              "text": "轴线型钢",
+              "iconCls": "icon-CAD",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "CADA",
+                  "text": "分隔式",
+                  "iconCls": "icon-CADA"
+                },
+                {
+                  "name": "CADB",
+                  "text": "互搭式",
+                  "iconCls": "icon-CADB"
+                }
+              ]
+            },
+            {
+              "type": "menubutton",
+              "name": "CAE",
+              "text": "螺旋盘管",
+              "iconCls": "icon-CAE",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "CAEA",
+                  "text": "筒体",
+                  "iconCls": "icon-CAEA"
+                }
+              ]
+            },
+            {
+              "type": "menubutton",
+              "name": "CAF",
+              "text": "螺旋半管",
+              "iconCls": "icon-CAF",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "CAFA",
+                  "text": "圆筒体",
+                  "iconCls": "icon-CAFA"
+                },
+                {
+                  "name": "CAFB",
+                  "text": "球形封头",
+                  "iconCls": "icon-CAFB"
+                },
+                {
+                  "name": "CAFC",
+                  "text": "椭圆封头",
+                  "iconCls": "icon-CAFC"
+                },
+                {
+                  "name": "CAFD",
+                  "text": "碟形封头",
+                  "iconCls": "icon-CAFD"
+                }
+              ]
+            },
+            {
+              "name": "CAG",
+              "text": "筒体轴向校核",
+              "iconCls": "icon-CAG",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        },
+        {
+          "name": "CB",
+          "title": "其他",
+          "tools": [
+            {
+              "name": "CBA",
+              "text": "导流板",
+              "iconCls": "icon-CBA",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "title": "ASME VIII-1",
+      "groups": [
+        {
+          "name": "DA",
+          "title": "内压计算",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "DAA",
+                  "text": "圆筒",
+                  "iconCls": "icon-DAA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DZ",
+          "title": "工具",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "DZA",
+                  "text": "PWHT",
+                  "iconCls": "icon-DZA",
+                  "disabled": true
+                },
+                {
+                  "name": "DZB",
+                  "text": "MDMT",
+                  "iconCls": "icon-DZB",
+                  "disabled": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E",
+      "title": "膨胀节",
+      "groups": [
+        {
+          "name": "EA",
+          "title": "GB/T 16749-2018",
+          "tools": [
+            {
+              "name": "EAA",
+              "text": "ZX",
+              "iconCls": "icon-EAA",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "EAB",
+              "text": "ZD/HZ",
+              "iconCls": "icon-EAB",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "EAC",
+              "text": "U&ensp;形",
+              "iconCls": "icon-EAC",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "EAD",
+              "text": "加强U形",
+              "iconCls": "icon-EAD",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "EAE",
+              "text": "Ω形",
+              "iconCls": "icon-EAE",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "EAF",
+              "text": "直边U形",
+              "iconCls": "icon-EAF",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        },
+        {
+          "name": "EB",
+          "title": "GB/T 12777-2008",
+          "tools": [
+            {
+              "name": "EBA",
+              "text": "膨胀节",
+              "iconCls": "icon-EBA",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "EBB",
+              "text": "膨胀节",
+              "iconCls": "icon-EBB",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "EBC",
+              "text": "膨胀节",
+              "iconCls": "icon-EBC",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "EBD",
+              "text": "膨胀节",
+              "iconCls": "icon-EBD",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X",
+      "title": "结构件",
+      "groups": [
+        {
+          "name": "XA",
+          "title": "塔内件",
+          "tools": [
+            {
+              "name": "XAA",
+              "text": "填料格栅板",
+              "iconCls": "icon-XAA",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "type": "menubutton",
+              "name": "XAB",
+              "text": "填料支承梁",
+              "iconCls": "icon-XAB",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "XABA",
+                  "text": "工形梁",
+                  "iconCls": "icon-XABA"
+                },
+                {
+                  "name": "XABC",
+                  "text": "L形梁",
+                  "iconCls": "icon-XABC"
+                },
+                {
+                  "name": "XABD",
+                  "text": "槽形梁",
+                  "iconCls": "icon-XABD"
+                },
+                {
+                  "name": "XABB",
+                  "text": "槽形梁",
+                  "iconCls": "icon-XABB"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "XB",
+          "title": "支座",
+          "disabled": true,
+          "tools": [
+            {
+              "type": "menubutton",
+              "name": "XBA",
+              "text": "耳式支座",
+              "iconCls": "icon-XBA",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "XBAA",
+                  "text": "不带整体加强环",
+                  "iconCls": "icon-XBAA"
+                },
+                {
+                  "name": "XBAB",
+                  "text": "带整体加强环、带垫板",
+                  "iconCls": "icon-XBAB"
+                },
+                {
+                  "name": "XBAC",
+                  "text": "带整体加强环、不带垫板",
+                  "iconCls": "icon-XBAC"
+                }
+              ]
+            },
+            {
+              "type": "menubutton",
+              "name": "XBB",
+              "text": "腿式支座",
+              "iconCls": "icon-XBB",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "XBBA",
+                  "text": "管材制作",
+                  "iconCls": "icon-XBBA"
+                },
+                {
+                  "name": "XBBB",
+                  "text": "等边角钢",
+                  "iconCls": "icon-XBBB"
+                },
+                {
+                  "name": "XBBC",
+                  "text": "槽钢",
+                  "iconCls": "icon-XBBC"
+                },
+                {
+                  "name": "XBBD",
+                  "text": "工字钢",
+                  "iconCls": "icon-XBBD"
+                },
+                {
+                  "name": "XBBE",
+                  "text": "H型钢",
+                  "iconCls": "icon-XBBE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "XC",
+          "title": "吊耳",
+          "tools": [
+            {
+              "name": "XCA",
+              "text": "TP/TPP",
+              "iconCls": "icon-XCA",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "XCB",
+              "text": "HP",
+              "iconCls": "icon-XCB",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "XCC",
+              "text": "SP",
+              "iconCls": "icon-XCC",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "XCD",
+              "text": "AXA/B/C",
+              "iconCls": "icon-XCD",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "XCE",
+              "text": "AP",
+              "iconCls": "icon-XCE",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        },
+        {
+          "name": "XD",
+          "title": "其他",
+          "tools": [
+            {
+              "name": "XDA",
+              "text": "人孔配件",
+              "iconCls": "icon-XDA",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "XDB",
+              "text": "U形管热应力",
+              "iconCls": "icon-XDB",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Y",
+      "title": "标准件",
+      "groups": [
+        {
+          "name": "YA",
+          "title": "吊耳",
+          "tools": [
+            {
+              "name": "YAA",
+              "text": "TP",
+              "iconCls": "icon-YAA",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YAB",
+              "text": "TPP",
+              "iconCls": "icon-YAB",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YAC",
+              "text": "HP",
+              "iconCls": "icon-YAC",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YAD",
+              "text": "SP",
+              "iconCls": "icon-YAD",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YAE",
+              "text": "AXA",
+              "iconCls": "icon-YAE",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YAF",
+              "text": "AXB",
+              "iconCls": "icon-YAF",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YAG",
+              "text": "AXC",
+              "iconCls": "icon-YAG",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YAH",
+              "text": "AP",
+              "iconCls": "icon-YAH",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        },
+        {
+          "name": "YB",
+          "title": "支座",
+          "tools": [
+            {
+              "name": "YBA",
+              "text": "鞍座",
+              "iconCls": "icon-YBA",
+              "iconAlign": "top",
+              "size": "large",
+              "disabled": true
+            }
+          ]
+        },
+        {
+          "name": "YC",
+          "title": "型钢",
+          "tools": [
+            {
+              "type": "menubutton",
+              "name": "YCA",
+              "text": "等边角钢",
+              "iconCls": "icon-YCA",
+              "iconAlign": "top",
+              "size": "large",
+              "menuItems": [
+                {
+                  "name": "YCAA",
+                  "text": "碳钢、低合金钢",
+                  "iconCls": "icon-YCAA"
+                },
+                {
+                  "name": "YCAB",
+                  "text": "高合金钢",
+                  "iconCls": "icon-YCAB"
+                }
+              ]
+            },
+            {
+              "name": "YCB",
+              "text": "槽钢",
+              "iconCls": "icon-YCB",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YCC",
+              "text": "工字钢",
+              "iconCls": "icon-YCC",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YCD",
+              "text": "不等边角钢",
+              "iconCls": "icon-YCD",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YCE",
+              "text": "H型钢",
+              "iconCls": "icon-YCE",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YCF",
+              "text": "T型钢",
+              "iconCls": "icon-YCF",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YCG",
+              "text": "方形型钢",
+              "iconCls": "icon-YCG",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YCH",
+              "text": "矩形型钢",
+              "iconCls": "icon-YCH",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "name": "YCI",
+              "text": "圆形型钢",
+              "iconCls": "icon-YCI",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Z",
+      "title": "工具",
+      "groups": [
+        {
+          "name": "ZA",
+          "title": "常用资料",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZAA",
+                  "text": "容器划类",
+                  "iconCls": "icon-ZAA"
+                },
+                {
+                  "name": "ZAB",
+                  "text": "标准总结",
+                  "iconCls": "icon-ZAB"
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "ZAC",
+                  "text": "介质特性",
+                  "iconCls": "fa fa-search",
+                  "menuItems": [
+                    {
+                      "name": "ZACA",
+                      "text": "HG 20660-2000",
+                      "iconCls": "fa fa-search-minus"
+                    },
+                    {
+                      "name": "ZACB",
+                      "text": "HG/T 20660-2017",
+                      "iconCls": "fa fa-search-plus"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZAD",
+                  "text": "ASME规范",
+                  "iconCls": "icon-ZAD"
+                },
+                {
+                  "name": "ZAE",
+                  "text": "GB容器规范",
+                  "iconCls": "icon-ZAE"
+                },
+                {
+                  "name": "ZAF",
+                  "text": "紧固件规范",
+                  "iconCls": "icon-ZAF"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZAG",
+                  "text": "制图规范",
+                  "iconCls": "icon-ZAG"
+                },
+                {
+                  "name": "ZAH",
+                  "text": "容器参考书",
+                  "iconCls": "icon-ZAH"
+                },
+                {
+                  "name": "ZAI",
+                  "text": "容器术语",
+                  "iconCls": "icon-ZAI"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "type": "splitbutton",
+                  "name": "ZAJ",
+                  "text": "封头成形",
+                  "iconCls": "icon-ZAJ",
+                  "menuItems": [
+                    {
+                      "name": "ZAJA",
+                      "text": "厚度变化",
+                      "iconCls": "icon-ZAJA"
+                    },
+                    {
+                      "name": "ZAJB",
+                      "text": "减薄率",
+                      "iconCls": "icon-ZAJB"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ZB",
+          "title": "截面力学特性",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZBA",
+                  "iconCls": "icon-ZBA"
+                },
+                {
+                  "name": "ZBB",
+                  "iconCls": "icon-ZBB"
+                },
+                {
+                  "name": "ZBC",
+                  "iconCls": "icon-ZBC"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZBD",
+                  "iconCls": "icon-ZBD"
+                },
+                {
+                  "name": "ZBE",
+                  "iconCls": "icon-ZBE"
+                },
+                {
+                  "name": "ZBF",
+                  "iconCls": "icon-ZBF"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZBG",
+                  "iconCls": "icon-ZBG"
+                },
+                {
+                  "name": "ZBH",
+                  "iconCls": "icon-ZBH"
+                },
+                {
+                  "name": "ZBI",
+                  "iconCls": "icon-ZBI"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZBJ",
+                  "iconCls": "icon-ZBJ"
+                },
+                {
+                  "name": "ZBK",
+                  "iconCls": "icon-ZBK"
+                },
+                {
+                  "name": "ZBL",
+                  "iconCls": "icon-ZBL"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZBM",
+                  "iconCls": "icon-ZBM"
+                },
+                {
+                  "name": "ZBN",
+                  "iconCls": "icon-ZBN"
+                },
+                {
+                  "name": "ZBO",
+                  "iconCls": "icon-ZBO"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ZZ",
+          "title": "其它",
+          "tools": [
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZZA",
+                  "text": "封头计算",
+                  "iconCls": "icon-ZZA"
+                },
+                {
+                  "name": "ZZB",
+                  "text": "几何体计算",
+                  "iconCls": "icon-ZZB"
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "ZZC",
+                  "text": "液位-容积",
+                  "iconCls": "icon-ZZC",
+                  "menuItems": [
+                    {
+                      "name": "ZZCA",
+                      "text": "立式平底",
+                      "iconCls": "icon-ZZCA"
+                    },
+                    {
+                      "name": "ZZCB",
+                      "text": "立式椭圆(2:1)封头",
+                      "iconCls": "icon-ZZCB"
+                    },
+                    {
+                      "name": "ZZCC",
+                      "text": "立式球形封头",
+                      "iconCls": "icon-ZZCC"
+                    },
+                    {
+                      "name": "ZZCE",
+                      "text": "卧式平头",
+                      "iconCls": "icon-ZZCE"
+                    },
+                    {
+                      "name": "ZZCF",
+                      "text": "卧式椭圆(2:1)封头",
+                      "iconCls": "icon-ZZCF"
+                    },
+                    {
+                      "name": "ZZCG",
+                      "text": "卧式球形封头",
+                      "iconCls": "icon-ZZCG"
+                    },
+                    {
+                      "name": "ZZCI",
+                      "text": "球罐",
+                      "iconCls": "icon-ZZCI"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "type": "splitbutton",
+                  "name": "ZZD",
+                  "text": "插值计算",
+                  "iconCls": "icon-ZZD",
+                  "menuItems": [
+                    {
+                      "name": "ZZDA",
+                      "text": "一次线性插值",
+                      "iconCls": "icon-ZZDA"
+                    },
+                    {
+                      "name": "ZZDB",
+                      "text": "二次线性插值",
+                      "iconCls": "icon-ZZDB"
+                    },
+                    {
+                      "name": "ZZDC",
+                      "text": "三次线性插值",
+                      "iconCls": "icon-ZZDC"
+                    },
+                    {
+                      "name": "ZZDD",
+                      "text": "对数坐标插值",
+                      "iconCls": "icon-ZZDD"
+                    }
+                  ]
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "ZZE",
+                  "text": "自流排净",
+                  "iconCls": "icon-ZZE",
+                  "menuItems": [
+                    {
+                      "name": "ZZEA",
+                      "text": "竖直圆柱筒",
+                      "iconCls": "icon-ZZEA"
+                    },
+                    {
+                      "name": "ZZEB",
+                      "text": "锥形筒",
+                      "iconCls": "icon-ZZEB"
+                    },
+                    {
+                      "name": "ZZEC",
+                      "text": "水平筒",
+                      "iconCls": "icon-ZZEC"
+                    },
+                    {
+                      "name": "ZZED",
+                      "text": "球形容器",
+                      "iconCls": "icon-ZZED"
+                    }
+                  ]
+                },
+                {
+                  "name": "ZZF",
+                  "text": "当量设计压力",
+                  "iconCls": "icon-ZZF"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZZG",
+                  "text": "介质静压力",
+                  "iconCls": "icon-ZZG"
+                },
+                {
+                  "type": "splitbutton",
+                  "name": "ZZH",
+                  "text": "盘管计算",
+                  "iconCls": "icon-ZZH",
+                  "menuItems": [
+                    {
+                      "name": "ZZHA",
+                      "text": "全管",
+                      "iconCls": "icon-ZZHA"
+                    },
+                    {
+                      "name": "ZZHB",
+                      "text": "半管",
+                      "iconCls": "icon-ZZHB"
+                    }
+                  ]
+                },
+                {
+                  "name": "ZZI",
+                  "text": "单位换算",
+                  "iconCls": "icon-ZZI"
+                }
+              ]
+            },
+            {
+              "type": "toolbar",
+              "dir": "v",
+              "tools": [
+                {
+                  "name": "ZZJ",
+                  "text": "伸长率换算",
+                  "iconCls": "icon-ZZJ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HELP",
+      "id": "HELP",
+      "title": "帮助",
+      "groups": [
+        {
+          "id": "HELPA",
+          "title": "意见与建议",
+          "tools": [
+            {
+              "id": "HELPAA",
+              "name": "HELPAA",
+              "iconCls": "icon-qqgroup",
+              "iconAlign": "bottom"
+            },
+            {
+              "id": "HELPAB",
+              "name": "HELPAB",
+              "text": "E-Mail：lishaoyan@mechw.com<br><span style='color:#3498DB;'>←&ensp;QQ&ensp;扫一扫进群&ensp;<i class='fa fa-qq'></i></span><br><span style='color:green'><i class='fa fa-weixin'></i>&ensp;微信扫一扫联系我&ensp;→</span>"
+            },
+            {
+              "id": "HELPAC",
+              "name": "HELPAC",
+              "iconCls": "icon-wechat",
+              "iconAlign": "bottom"
+            }
+          ]
+        },
+        {
+          "id": "HELPZ",
+          "title": "关于",
+          "tools": [
+            {
+              "id": "HELPZA",
+              "name": "HELPZA",
+              "text": "更新日志",
+              "iconCls": "icon-updates",
+              "iconAlign": "top",
+              "size": "large"
+            },
+            {
+              "id": "HELPZB",
+              "name": "HELPZB",
+              "text": "使用必读",
+              "iconCls": "icon-readme",
+              "iconAlign": "top",
+              "size": "large"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

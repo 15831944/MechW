@@ -1,0 +1,95 @@
+#payjs .weui-wepay-code-wrap {
+    background-color: transparent;
+    height: 415px;
+}
+
+#payjs .confirm {
+    margin-bottom: 0
+}
+
+#payjs .info-area {
+    position: relative;
+    background-color: #FFF;
+    padding: 0 20px 0 20px;
+    height: 161px;
+}
+
+#payjs .weui-wepay-logos.weui-wepay-logos_ft {
+    width: 100%;
+    position: unset;
+    padding: 8px 0 5px;
+}
+
+#payjs .weui-msg {
+    height: 407px;
+}
+
+#payjs .totle {
+    position: relative;
+    padding: 10px 0 5px;
+    text-align: center;
+}
+
+#payjs .totle-title {
+    font-size: 14px;
+    color: #000
+}
+
+#payjs .totle-num {
+    font-size: 38px;
+    padding-top: 0;
+    text-align: center;
+}
+
+#payjs table {
+    width: 100%;
+    font-size: 12px;
+    color: #333;
+}
+
+#payjs table tr td:last-child {
+    text-align: right;
+}
+
+#payjs .weui-wepay-code.weui-wepay-code_logo {
+    margin: 5px 20px 5px 20px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+#payjs .weui-btn.weui-btn_default {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 2.25;
+}
+
+#payjs .weui-wepay-code__bd {
+    background-color: #23ac38;
+    padding: 10px 0 15px 0;
+    text-align: center;
+}
+
+#payjs .weui-wepay-code__main {
+    padding: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    width: 155px;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+#payjs .weui-wepay-code__subtitle {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+#payjs .weui-wepay-code__bd > img {
+    width: 150px;
+    height: 38px;
+}
+
+#payjs_qrcode {
+    width: 145px;
+    min-height: 145px;
+}

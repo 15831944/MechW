@@ -1,0 +1,136 @@
+{
+  "rows": [
+    {
+      "id": "ZABDX",
+      "name": "介质毒性危险程度",
+      "value": "",
+      "group": "数据输入",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "极度、高度危害",
+              "text": "极度、高度危害"
+            },
+            {
+              "value": "其他",
+              "text": "其他"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "id": "ZABBZ",
+      "name": "介质爆炸危险程度",
+      "value": "",
+      "group": "数据输入",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "易爆",
+              "text": "易爆"
+            },
+            {
+              "value": "非易爆",
+              "text": "非易爆"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "id": "ZABXT",
+      "name": "介质形态",
+      "value": "",
+      "group": "数据输入",
+      "editor": {
+        "type": "combobox",
+        "options": {
+          "data": [
+            {
+              "value": "气体",
+              "text": "气体"
+            },
+            {
+              "value": "液化气体",
+              "text": "液化气体"
+            },
+            {
+              "value": "液体(工作温度≥标准沸点)",
+              "text": "液体(工作温度≥标准沸点)"
+            },
+            {
+              "value": "液体(工作温度<标准沸点)",
+              "text": "液体(工作温度<标准沸点)"
+            }
+          ],
+          "panelHeight": "auto",
+          "editable": false,
+          "hasDownArrow": true
+        }
+      }
+    },
+    {
+      "id": "ZABWP",
+      "name": "工作压力，MPa",
+      "value": "",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "id": "ZABID",
+      "name": "容器最大内直径，mm",
+      "value": "",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "id": "ZABDP",
+      "name": "设计压力 P，MPa",
+      "value": "",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    },
+    {
+      "id": "ZABV",
+      "name": "容器内容积 V，m³",
+      "value": "",
+      "group": "数据输入",
+      "editor": {
+        "type": "numberbox",
+        "options": {
+          "min": 0,
+          "precision": 2
+        }
+      }
+    }
+  ]
+}

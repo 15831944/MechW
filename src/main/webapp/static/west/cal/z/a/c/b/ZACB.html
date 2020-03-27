@@ -1,0 +1,74 @@
+<table width="100%" border="1px" cellpadding="0" cellspacing="0"
+       style="table-layout:fixed;border-collapse:collapse;border-color:black;margin-top:15px;margin-bottom:0px;">
+    <tbody id="ZACBTBody">
+    <tr>
+        <td colspan="10" align="center" valign="middle" class="calculateSheetInput">数据输入</td>
+        <td id="ZACBSketch" colspan="14" rowspan="2" style="width:100%;vertical-align: bottom;"></td>
+    </tr>
+    <tr id="ZACBSelectorRow">
+        <td colspan="6" align="left" valign="middle">&ensp;查询方式</td>
+        <td colspan="4">
+            <select id="ZACBSelector" title="" class="calculateSheetSelect">
+                <option value="ZACBNone"></option>
+                <option value="ZACBSearch">按名称搜索</option>
+                <option value="ZACBBrowse">分类浏览</option>
+            </select>
+        </td>
+    </tr>
+    <tr id="ZACBToxicityTr" style="display:none;">
+        <td colspan="6">&ensp;毒性危害程度</td>
+        <td colspan="4">
+            <select id="ZACBToxicity" class="calculateSheetSelect" title="">
+                <option value="ZACBNone"></option>
+                <option value="ZACBAll">全部</option>
+                <option value="ZACBExtreme">极度危害</option>
+                <option value="ZACBHighly">高度危害</option>
+                <option value="ZACBModerate">中度危害</option>
+            </select>
+        </td>
+    </tr>
+    <tr id="ZACBExplosionTr" style="display:none;">
+        <td colspan="6">&ensp;爆炸危险程度</td>
+        <td colspan="4">
+            <select id="ZACBExplosion" class="calculateSheetSelect" title="">
+                <option value="ZACBNone"></option>
+                <option value="ZACBAll">全部</option>
+                <option value="ZACBSingleExplosive">单一爆炸物质</option>
+                <option value="ZACBMultiExplosive">混合爆炸物质</option>
+            </select>
+        </td>
+    </tr>
+    <tr id="ZACBSearch" style="display:none;">
+        <td colspan="6">&ensp;输入要搜索的介质名称</td>
+        <td colspan="4" style="color:red;position:relative;border-color: black;">
+            <input id="ZACBSearchContent" type="text" class="calculateSheetInput" title=""/>
+            <span id="ZACBSearchButton" class="fa fa-search"
+                  style="position: absolute;top: 0;right: 0;z-index: 99;cursor:pointer;"></span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="24" align="center" valign="middle" class="calculateSheetResult">查询结果</td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center" valign="middle">中文名称</td>
+        <td colspan="3" align="center" valign="middle">中文别名</td>
+        <td colspan="4" align="center" valign="middle">英文名称</td>
+        <td colspan="5" align="center" valign="middle">分子式</td>
+        <td colspan="2" align="center" valign="middle">毒性危害</td>
+        <td colspan="3" align="center" valign="middle">爆炸危险</td>
+        <td colspan="1" align="center" valign="middle">备注</td>
+        <td colspan="3" align="center" valign="middle">HG/T 20660-2017<br>来源</td>
+    </tr>
+    </tbody>
+</table>
+<table width="100%" border="1px" cellpadding="0" cellspacing="0"
+       style="table-layout:fixed;border-collapse:collapse;border-color:black;margin-top:0;margin-bottom:15px;border-top:none;">
+    <tr>
+        <td colspan="24" valign="middle" style="padding-left:10px;border-top: none;">
+            G1：表示该物质为G1组致癌物，即明确人类致癌物，IARC对物质的致癌性分为G1,G2A,G2B,G3,G4五个级别；<br>
+            禁：表示为中国政府已列入禁止使用名单的物质;<br>
+            限：表示为中国政府已列入限制使用(含贸易限制)名单的物质;
+        </td>
+    </tr>
+</table>
+<script type="text/javascript" charset="utf-8" src="/static/west/cal/z/a/c/b/ZACB.js"></script>
